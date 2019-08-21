@@ -40,32 +40,33 @@
 	position: relative;
 	left: 10px;
 	top: 70px;
-
 }
 
 .barra_sobre1{
-	top: 10px;
-	left:100px;
-	position: relative;
+	top: 220px;
+	left:210px;
+	position: absolute;
 	display:inline;
 }
 
 .barra_sobre2{
-	top: 10px;
-	left:100px;
-	position: relative;
+	top: 220px;
+	left:420px;
+	position: absolute;
 	display:inline;
 }
 
 .texto_sobre{
-	top: 320px;
-	left:380px;
+	top: 330px;
+	left:370px;
 	position: absolute;
 	display:inline-block;
+	width:300px;
 }
 .posicao_texto_sobre{
 	top: 280px;
-	left:450px;
+	left:470px;
 	position: absolute;
 	display:inline;
+
 }
