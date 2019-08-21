@@ -80,6 +80,7 @@
 
 .imagemmecat{
 	position: absolute;
+	display: block;
 	top: 250px;
 	left: 70px;
 
@@ -87,8 +88,9 @@
 
 .textomec{
 	position: absolute;
+
 	top: 250px;
-	left: 800px;
+	left: 450px;
 }
 
 .lorem{
@@ -102,65 +104,65 @@
 .projetos{
 	position: absolute;
 	top: 550px;
-	left: 150px;
+	left: 70px;
 }
 
 .imgambulantes{
 	position: absolute;
 	top: 640px;
-	left: 390px;
+	left: 70px;
 
 }
 
 .linkambulantes{
 	position: absolute;
 	top: 620px;
-	left: 390px;
+	left: 70px;
 }
 
 .descricao{
 	position: absolute;
 	top: 620px;
-	left: 480px;
+	left: 160px;
 }
 
 .imgestacao{
 	position: absolute;
 	top: 800px;
-	left: 390px;
+	left: 70px;
 
 }
 
 .linkestacao{
 	position: absolute;
 	top: 780px;
-	left: 390px;
+	left: 70px;
 
 }
 
 .descricao1{
 	position: absolute;
 	top: 780px;
-	left: 550px;
+	left: 225px;
 }
 
 .imggirafa{
 	position: absolute;
 	top: 940px;
-	left: 390px;
+	left: 70px;
 
 }
 
 .linkgirafa{
 	position: absolute;
 	top: 920px;
-	left: 390px;
+	left: 70px;
 
 }
 
 .descricao2{
 	position: absolute;
 	top: 920px;
-	left: 450px;
+	left: 120px;
 
 }
