@@ -69,3 +69,97 @@
 	position: absolute;
 	display:inline;
 }
+
+.body{
+	height: 2000px 
+
+}
+
+
+
+.imagemmecat{
+	position: absolute;
+	top: 250px;
+	left: 70px;
+
+}
+
+.textomec{
+	position: absolute;
+	top: 250px;
+	left: 800px;
+}
+
+.lorem{
+	position: absolute;
+	top: 300px;
+	left: 400px;
+	margin-right: 20px
+
+}
+
+.projetos{
+	position: absolute;
+	top: 550px;
+	left: 150px;
+}
+
+.imgambulantes{
+	position: absolute;
+	top: 640px;
+	left: 390px;
+
+}
+
+.linkambulantes{
+	position: absolute;
+	top: 620px;
+	left: 390px;
+}
+
+.descricao{
+	position: absolute;
+	top: 620px;
+	left: 480px;
+}
+
+.imgestacao{
+	position: absolute;
+	top: 800px;
+	left: 390px;
+
+}
+
+.linkestacao{
+	position: absolute;
+	top: 780px;
+	left: 390px;
+
+}
+
+.descricao1{
+	position: absolute;
+	top: 780px;
+	left: 550px;
+}
+
+.imggirafa{
+	position: absolute;
+	top: 940px;
+	left: 390px;
+
+}
+
+.linkgirafa{
+	position: absolute;
+	top: 920px;
+	left: 390px;
+
+}
+
+.descricao2{
+	position: absolute;
+	top: 920px;
+	left: 450px;
+
+}
