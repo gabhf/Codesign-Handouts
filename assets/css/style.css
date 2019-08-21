@@ -1,0 +1,26 @@
+header{
+}
+
+.cabecalho{
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 165px;
+}
+
+.nav{
+	position: relative;
+}
+
+.nav-item{
+	position: relative;
+	display: inline-block;
+	margin: 20px 100px;
+	width: 115px
+}
+
+.imagem{
+	position: relative;
+	margin-top: 5px;
+	margin-left: 100px;
+}
