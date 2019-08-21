@@ -38,8 +38,14 @@
 
 .sobre_image{
 	position: relative;
+<<<<<<< HEAD
 	left: 10px;
 	top: 20px;
+=======
+	left: 25px;
+	top: 70px;
+	margin: 20px;
+>>>>>>> dfe5706be54f898b340cf5b76738b263ca7fee36
 }
 
 .barra_sobre1{
@@ -58,22 +64,18 @@
 
 .texto_sobre{
 	top: 330px;
-	left:370px;
+	left:390px;
 	position: absolute;
 	display:inline-block;
 	width:300px;
 }
 .posicao_texto_sobre{
 	top: 280px;
-	left:470px;
+	left:490px;
 	position: absolute;
 	display:inline;
 
 }
-
-
-
-
 .imagemmecat{
 	position: absolute;
 	display: block;
