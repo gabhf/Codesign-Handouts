@@ -71,10 +71,6 @@
 
 }
 
-.body{
-	height: 2000px 
-
-}
 
 
 
@@ -88,7 +84,6 @@
 
 .textomec{
 	position: absolute;
-
 	top: 250px;
 	left: 450px;
 }
@@ -165,4 +160,53 @@
 	top: 920px;
 	left: 120px;
 
+}
+
+.Body {
+    height: 1300px;
+}
+
+.Project-Title {
+    position: absolute;    
+    top:  875px;
+    left: 100px;
+    margin: 20px;              
+}
+
+.Project-Text {
+    position: absolute;
+    top: 925px; 
+    left: 25px;
+    margin: 20px;
+    width: 400px;
+}
+
+.Project-imgs {
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    margin: 20px;
+    width: 850px;
+    height: 500px
+}
+
+.Project-img {
+    position: absolute;
+    top: 875px;
+    left: 480px;
+    margin: 20px;
+}
+
+.Title-ER{
+    position: absolute;
+    top: 1200px;
+    left: 25px;
+    margin: 20px;
+}
+
+.People{
+    position: absolute;
+    top: 1225px;
+    left: 25px;
+    margin: 20px;
 }
