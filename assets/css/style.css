@@ -12,14 +12,15 @@
 .nav-item{
 	position: relative;
 	display: inline-block;
-	margin: 20px 100px;
-	width: 115px
+	top: 45px;
+	margin: 40px 165px;
+	width: 200px
 }
 
-.imagem{
+.imagem_index{
 	position: relative;
-	margin-top: 5px;
-	margin-left: 100px;
+	margin-top: 100px;
+	margin-left: 270px;
 }
 
 .header {
@@ -59,14 +60,14 @@
 
 .texto_sobre{
 	top: 330px;
-	left:390px;
+	left:490px;
 	position: absolute;
 	display:inline-block;
-	width:300px;
+	width:360px;
 }
 .posicao_texto_sobre{
-	top: 280px;
-	left:490px;
+	top: 290px;
+	left:640px;
 	position: absolute;
 	display:inline;
 
@@ -74,20 +75,20 @@
 .imagemmecat{
 	position: absolute;
 	display: block;
-	top: 250px;
+	top: 280px;
 	left: 20px;
 
 }
 
-.textomat{
+.titulo_cat{
 	position: absolute;
-	top: 250px;
+	top: 280px;
 	left: 600px;
 }
 
-.lorem{
+.texto_cat{
 	position: absolute;
-	top: 300px;
+	top: 330px;
 	left: 400px;
 	margin-right: 20px;
 	width: 500px;
@@ -219,5 +220,12 @@
 	position: absolute;
 	top: 200px;
 	left: 500px;
+	margin: 20px;
+}
+
+.projetos_index {
+	position: absolute;
+	top: 520px;
+	left: 144px;
 	margin: 20px;
 }
