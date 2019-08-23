@@ -1,0 +1,79 @@
+.nav{
+	position: relative;
+}
+
+.content{
+	display: flex;
+	width:80%;
+	margin:2rem auto;
+
+}
+
+header{
+	position:relative;
+}
+
+
+.Menu {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width: 500px;
+	position: relative;
+}
+
+.logo {
+	display:flex;
+	flex-direction:: row;
+	width:200px;
+}
+
+.sobre_image{
+	display:flex;
+	margin: 20px;
+}
+
+.texto_sobre{
+	top: 330px;
+	left:490px;
+	position: absolute;
+	display:inline-block;
+	width:360px;
+}
+.posicao_texto_sobre{
+	top: 290px;
+	left:640px;
+	position: absolute;
+	display:inline;
+
+}
+.imagemmecat{
+	position: absolute;
+	display: block;
+	top: 280px;
+	left: 20px;
+
+}
+
+.titulo_cat{
+	position: absolute;
+	top: 280px;
+	left: 600px;
+}
+
+.texto_cat{
+	position: absolute;
+	top: 330px;
+	left: 400px;
+	margin-right: 20px;
+	width: 500px;
+}
+
+
+
+.projetos_index {
+	position: absolute;
+	top: 520px;
+	left: 144px;
+	margin: 20px;
+}
