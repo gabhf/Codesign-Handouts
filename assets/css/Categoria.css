@@ -1,24 +1,17 @@
 .header {
- 	width: 70%;
- 	justify-content: flex-start;
- 	display: flex; 
- 	margin: 0 auto;
+	width: 70%;
+	justify-content: flex-start;
+	display: flex; 
+	margin: 0 auto;
 }
 
 .navi {
-  	display:flex;
-  	flex-direction:row;
-  	justify-content: space-around;
-  	width:  70%;
-  	height:3rem;
-  	margin:0 auto;
-}
-
-.Menu1{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width:  70%;
+	height:3rem;
+	margin:0 auto;
 }
 
 .imagemcat{
@@ -29,77 +22,51 @@
 
 }
 
-.titulocat{
-	display: flex;
-	float: left;
-	margin-left: 30%
-}
-
-.mecat3{
-	display: flex;
-	width: 35%
-	justify-content: flex-end;
-	align-content: end
-
-}
-
 .projetos{
 	display: flex;
-	margin-top: 8rem;
-	margin: 15%;
-
+	margin: 18% 10%;
+  margin-left: 32%
 }
-
 
 .categ_image{
 	display:flex ;
-  	margin-left:18%;
-  	padding:  0rem;
-  	float: left;
-  	width:30%;
+	margin-left:18%;
+	padding:  0rem;
+	float: left;
+	width:30%;
 }
 
 .texto_categ{
-  	margin-right:18%;
-  	margin-left:53%;
-  	display: flex;
-  	padding-top:1rem;
+	margin-right:18%;
+	margin-left:53%;
+	display: flex;
+	padding-top:1rem;
 }
 
 .posicao_texto_cat{
-  	margin-right:18%;
-  	margin-left:53%;
-  	display: flex;
-  	justify-content: center;
-  	padding-top:1.7rem;
+	margin-right:18%;
+	margin-left:53%;
+	display: flex;
+	justify-content: center;
+	padding-top:1.7rem;
 }
 
 .grade{
 	display: grid;
-	margin-top: 2rem;
-	grid-template-rows: 15% 1fr 1fr 1fr 1fr 15%;
-	grid-template-columns: 1fr;  
+	margin-top: -15% ;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr auto;
+	grid-template-columns: 1fr ;  
 	margin-left: 15%;
 
 }
 
-.link1{
+.link1, .descricao1{
 	display: grid;
 	grid-row-start: 1;
 	grid-row-end: 1;
 	grid-column-start: 1;
 	grid-column-end: 1;
-
-	
-}
-
-.descricao1{
-	display: grid;
-	grid-row-start: 1;
-	grid-row-end: 1;
-	grid-column-start: 1;
-	grid-column-end: 1;
-	
+  margin-left: 20%;
 }
 
 .img1{
@@ -108,22 +75,16 @@
 	grid-row-end: 2;
 	grid-column-start: 1;
 	grid-column-end: 1;
+  margin-left: 20%;
 }
 
-.link2{
+.link2, .descricao2{
 	display: grid;
 	grid-row-start: 3;
 	grid-row-end: 3;
 	grid-column-start: 1;
 	grid-column-end: 1;
-}
-
-.descricao2{
-	display: grid;
-	grid-row-start: 3;
-	grid-row-end: 3;
-	grid-column-start: 1;
-	grid-column-end: 1;
+  margin-left: 20%;
 }
 
 .img2{
@@ -132,22 +93,16 @@
 	grid-row-end: 4;
 	grid-column-start: 1;
 	grid-column-end: 1;
+  margin-left: 20%;
 }
 
-.link3{
+.link3, .descricao3{
 	display: grid;
 	grid-row-start: 5;
 	grid-row-end: 5;
 	grid-column-start: 1;
 	grid-column-end: 1;
-}
-
-.descricao3{
-	display: grid;
-	grid-row-start: 5;
-	grid-row-end: 5;
-	grid-column-start: 1;
-	grid-column-end: 1;
+  margin-left: 20%;
 }
 
 .img3{
@@ -156,6 +111,7 @@
 	grid-row-end: 6;
 	grid-column-start: 1;
 	grid-column-end: 1;
+  margin-left: 20%;
 }
 
 
