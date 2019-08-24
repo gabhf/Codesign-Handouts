@@ -1,0 +1,166 @@
+.header {
+  width: 70%;
+  justify-content: flex-start;
+  display: flex; 
+  margin: 0 auto;
+}
+
+.navi {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+  width:  70%;
+  height:3rem;
+  margin:0 auto;
+}
+
+.Menu1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+/*
+.mecat{
+	align-items: flex-start;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 50% 1fr ; 
+	grid-template-rows: 3rem 1fr; 
+	margin: 1rem;
+	grid-gap: 1rem;
+	
+
+}
+*/
+.imagemcat{
+	display: flex;
+	float: left;
+	margin-left:15%;
+	width: 15%
+
+}
+
+.titulocat{
+	display: flex;
+	float: left;
+	margin-left: 30%
+}
+
+.mecat3{
+	display: flex;
+	width: 35%
+	justify-content: flex-end;
+	align-content: end
+
+}
+
+.projetos{
+	display: flex;
+	margin-top: 20rem;
+	margin-left: 35rem
+
+}
+
+.grade{
+	display: grid;
+	grid-template-columns: 25% 1fr; 
+	grid-template-rows: 15% 1fr 1fr 1fr 1fr 15%; 
+	margin-left: 15%;
+	grid-gap: 1rem;
+}
+
+.link1{
+	display: grid;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+
+.descricao1{
+	display: grid;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+
+.img1{
+	display: grid;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+
+.link2{
+	display: grid;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+
+.descricao2{
+	display: grid;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+
+.img2{
+	display: grid;
+	grid-row-start: 4;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.link3{
+	display: grid;
+	grid-row-start: 5;
+	grid-row-end: 5;
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+
+.descricao3{
+	display: grid;
+	grid-row-start: 5;
+	grid-row-end: 5;
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+
+.img3{
+	display: grid;
+	grid-row-start: 6;
+	grid-row-end: 6;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.categ_image{
+	display:flex ;
+  margin-left:18%;
+  padding:  0rem;
+  float: left;
+  width:30%;
+}
+
+.texto_categ{
+  margin-right:18%;
+  margin-left:53%;
+  display: flex;
+  padding-top:1rem;
+}
+
+.posicao_texto_cat{
+  margin-right:18%;
+  margin-left:53%;
+  display: flex;
+  justify-content: center;
+  padding-top:1.7rem;
+}

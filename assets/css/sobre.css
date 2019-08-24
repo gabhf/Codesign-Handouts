@@ -1,0 +1,50 @@
+.content{
+	display: flex;
+	width:70%;
+}
+
+.header {
+  width: 70%;
+  justify-content: flex-start;
+  display: flex; 
+  margin: 0 auto;
+}
+
+.navi {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+  width:  70%;
+  height:3rem;
+  margin:0 auto;
+}
+
+.logo {
+	display: inline-block;
+  width: 100%;
+  margin-left:20%;
+  position: relative;
+}
+
+.sobre_image{
+	display:flex ;
+  margin-left:18%;
+  padding:  0rem;
+  float: left;
+  width:29%;
+}
+
+.texto_sobre{
+  margin-right:18%;
+  margin-left:53%;
+  display: flex;
+  padding-top:1rem;
+}
+
+.posicao_texto_sobre{
+    margin-right:18%;
+    margin-left:53%;
+    display: flex;
+    justify-content: center;
+    padding-top:1.7rem;
+}
