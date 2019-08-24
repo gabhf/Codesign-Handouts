@@ -4,7 +4,6 @@
 }
 
 .header {
-  background: #1abc9c;
   width: 70%;
   justify-content: flex-start;
   display: flex; 
@@ -13,39 +12,38 @@
 
 .navi {
 	display:flex;
-  background: #1abc9b;
 	flex-direction:row;
 	justify-content: space-around;
   width:  70%;
-  height:20px;
+  height:3rem;
   margin:0 auto;
-
 }
 
 .logo {
 	display: inline-block;
-  width: auto
+  width: 100%;
+  margin-left:20%;
+  position: relative;
 }
 
 .sobre_image{
 	display:flex ;
-  background:   black;
-  margin-left:15%;
+  margin-left:18%;
   padding:  0rem;
   float: left;
-  width:35%;
+  width:29%;
 }
 
 .texto_sobre{
-  background: red;
-  margin-right:15%;
+  margin-right:18%;
+  margin-left:53%;
   display: flex;
   padding-top:1rem;
 }
 
 .posicao_texto_sobre{
-    background: yellow;
-    margin-right:15%;
+    margin-right:18%;
+    margin-left:53%;
     display: flex;
     justify-content: center;
     padding-top:1.7rem;
