@@ -1,10 +1,26 @@
+.header {
+  width: 70%;
+  justify-content: flex-start;
+  display: flex; 
+  margin: 0 auto;
+}
+
+.navi {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+  width:  70%;
+  height:3rem;
+  margin:0 auto;
+}
+
 .Menu1{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 
 }
-
+/*
 .mecat{
 	align-items: flex-start;
 	display: grid;
@@ -16,46 +32,41 @@
 	
 
 }
-
-.mecat1{
-	display: grid;
-	grid-row-start: 1;
-	grid-row-end: 1;
-	grid-column-start: 1;
-	grid-column-end: 2; 
+*/
+.imagemcat{
+	display: flex;
+	float: left;
+	margin-left:15%;
+	width: 15%
 
 }
 
-.mecat2{
-	display: grid;
-	grid-row-start: 1;
-	grid-row-end: 1;
-	grid-column-start: 2;
-	grid-column-end: 2;
-	justify-content: center;
-
+.titulocat{
+	display: flex;
+	float: left;
+	margin-left: 30%
 }
 
 .mecat3{
-	display: grid;
-	grid-row-start: 2;
-	grid-row-end: 2;
-	grid-column-start: 2;
-	grid-column-end: 2;
+	display: flex;
+	width: 35%
+	justify-content: flex-end;
+	align-content: end
 
 }
 
 .projetos{
 	display: flex;
-	margin: 1rem;
+	margin-top: 20rem;
+	margin-left: 35rem
 
 }
 
 .grade{
 	display: grid;
 	grid-template-columns: 25% 1fr; 
-	grid-template-rows: 3rem 1fr 1fr 1fr 1fr 1fr; 
-	margin: 1rem;
+	grid-template-rows: 15% 1fr 1fr 1fr 1fr 15%; 
+	margin-left: 15%;
 	grid-gap: 1rem;
 }
 
@@ -131,4 +142,25 @@
 	grid-column-end: 2;
 }
 
+.categ_image{
+	display:flex ;
+  margin-left:18%;
+  padding:  0rem;
+  float: left;
+  width:30%;
+}
 
+.texto_categ{
+  margin-right:18%;
+  margin-left:53%;
+  display: flex;
+  padding-top:1rem;
+}
+
+.posicao_texto_cat{
+  margin-right:18%;
+  margin-left:53%;
+  display: flex;
+  justify-content: center;
+  padding-top:1.7rem;
+}
