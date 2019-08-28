@@ -1,5 +1,5 @@
-header{
-	display: block;
+.header{
+	display: block
 }
 .container{
 	margin: 1rem;
@@ -22,19 +22,24 @@ header{
 }
 .lista{
 	display: flex;
-	justify-content: center;
+	justify-content: center; 
+	margin: 0.5rem;
 }
 .nav{
+	background-color: blue;
 	padding: 0.5rem;
 	display: grid;	
-	grid-template-rows: 1fr 1fr 1fr ;
+	grid-template-rows: 1fr 1fr ;
 	grid-template-columns: 1fr 1fr;
+	grid-gap: 5rem 10rem;
+	justify-items: stretch;
+	align-items: stretch;
 }
 .item1, .item2, .item3, .item4{
-	margin: 2rem;
 	padding: .5rem;
 }
 .item1{
+	background-color: red;
 	padding: 0.5rem;
 	grid-row-start: 1;
 	grid-row-end: 2;
@@ -42,6 +47,7 @@ header{
 	grid-column-end: 2;
 }
 .item2{
+	background-color: yellow;
 	grid-row-start: 2;
 	grid-row-end: 3;
 	grid-column-start: 1;
@@ -49,6 +55,7 @@ header{
 
 }
 .item3{
+	background-color: turquoise;
 	grid-row-start: 1;
 	grid-row-end: 2;
 	grid-column-start: 2;
@@ -56,11 +63,12 @@ header{
 
 }
 .item4{
+	background-color: green;
 	grid-row-start: 2;
 	grid-row-end: 3;
 	grid-column-start: 2;
 	grid-column-end: 3;
 }
 .projetos_index{
-	margin-left: 2rem
+	margin-left: 15%
 }
