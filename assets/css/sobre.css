@@ -3,48 +3,59 @@
 	width:70%;
 }
 
-.header {
-  width: 70%;
-  justify-content: flex-start;
-  display: flex; 
-  margin: 0 auto;
+
+body{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .navi {
 	display:flex;
 	flex-direction:row;
 	justify-content: space-around;
-  width:  70%;
+  width:  100%;
   height:3rem;
   margin:0 auto;
 }
 
 .logo {
 	display: inline-block;
-  width: 100%;
-  margin-left:20%;
   position: relative;
 }
 
 .sobre_image{
-	display:flex ;
-  margin-left:18%;
   padding:  0rem;
-  float: left;
-  width:29%;
+  width: 50%;
+  justify-content: center;
+  margin-left: 2rem;
+  display: flex;
+  background: black;
 }
 
 .texto_sobre{
-  margin-right:18%;
-  margin-left:53%;
   display: flex;
   padding-top:1rem;
+  align-content: center;
+  padding:1rem;
+  width: 100%;
 }
 
 .posicao_texto_sobre{
-    margin-right:18%;
-    margin-left:53%;
-    display: flex;
-    justify-content: center;
-    padding-top:1.7rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.texto_com_imagem{
+  width: 50%;
+  margin-right: 5rem;
+  background: blue
+}
+
+.divisao_horizontal{
+  display: flex;
+  direction: row;
+  width: 100%;
 }
