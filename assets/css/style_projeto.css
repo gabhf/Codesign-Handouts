@@ -1,72 +1,72 @@
 .Body {
-  display: grid;
-  height: 1500px;
-  grid-template-rows: 15% 5% 15% 10% 10% 10% 5% 25% 5% 5% ; 
-  grid-template-columns: 15% 7% 7% 7% 7% 7% 7% 7% 7% 7% 7% 15%;
-}
-
-.Project-Title {
-  grid-row-start: 7;
-  grid-row-end: 7 ;
-  grid-column-start: 4;
-  grid-column-end: 6;    
-  
-}
-
-.Project-Text {
-  grid-row-start: 8;
-  grid-column-start: 3;
-  grid-column-end: 7 ;
-  
-}
-
-.Project-imgs {
-	grid-row-start: 3;
-  grid-row-end: 6;
-  grid-column-start: 2;
-  grid-column-end: 12 ;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 100%;
+  align-items: stretch;
 }
 
-.Project-img {
-	grid-row-start: 7;
-  grid-row-end: 9;
-  grid-column-start:8;
-  
-  
+.Project-imgs{
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
 }
 
-.Title-ER{
-	grid-row-start: 9;
-  grid-column-start:3;
-  grid-column-end: 6 ;
-}
-.People{
-	grid-row-start: 10;
-  grid-row-end: 10;
-  grid-column-start:3;
-  grid-column-end: 6 ;
+.project-container{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
 }
 
-.Menu1 {
-	grid-row-start: 2;
-  grid-row-end: 2;
-  grid-column-start:4;
-  grid-column-end: 5; 
+.project-class{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+.project-title{
+  justify-content: center;
+  display:flex;
+  font-family: 'Lora', serif;
+
 }
 
-.Menu2 {
-  grid-row-start: 2;
-  grid-row-end: 2;
-  grid-column-start:9;
-  grid-column-end: 10;
+.membros{
+  align-items: flex-end; 
+  display: flex;
+  font-family: 'Red Hat Display', sans-serif;
+
 }
 
-.logo{
-  grid-row-start: 1;
-  grid-row-end: 1;
-  grid-column-start:2;
-  grid-column-end: 3 ;
-  margin: 20px;
+.project-description{
+  margin: 1rem;
+  display:flex;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.project-er{
+  display: flex;
+  align-items: flex-end; 
+  margin-top: 15rem;
+  font-family: 'Lora', serif;
+}
+
+.er-members{
+  justify-self: flex-start;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 1rem;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.project-img{
+}
+
+.navi {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+  width:  70%;
+  height:3rem;
+  margin:0 auto;
+  font-family: 'Red Hat Display', sans-serif;
 }
