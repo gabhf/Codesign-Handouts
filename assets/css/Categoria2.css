@@ -21,24 +21,27 @@
 	grid-gap: 1rem;
 }
 .categ_image{
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 3;
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  margin-left: 2rem;
+  display: flex;
 }
 .nome_categ{
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 2;
-	font-family: 'Lora', serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.5rem;
+  font-family: 'Red Hat Display', sans-serif;
+
 }
 .texto_categ{
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3;
-	font-family: 'Red Hat Display', sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.5rem;
+  font-family: 'Red Hat Display', sans-serif;
+
 }
 .projetos{
   margin: 1rem;
@@ -57,3 +60,15 @@
 	font-family: 'Red Hat Display', sans-serif;
 }
 
+.texto_com_imagem{
+  width: 50%;
+  margin-right: 5rem;
+  font-family: 'Lora', sans-serif;
+
+}
+
+.divisao_horizontal{
+  display: flex;
+  direction: row;
+  width: 100%;
+}

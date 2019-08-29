@@ -7,13 +7,6 @@
 	display: flex;
 	justify-content: space-evenly;
 }
-.menu1, .menu2{
-	padding: 0.5rem;
-}
-.menu1{
-}
-.menu2{
-}
 
 .img{
 	display: flex;
@@ -31,9 +24,10 @@
 	display: grid;	
 	grid-template-rows: 1fr 1fr ;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 5rem 10rem;
+	grid-gap: 10rem 20rem;
 	justify-items: stretch;
 	align-items: stretch;
+  font-family: 'Red Hat Display', sans-serif;
 }
 .item1, .item2, .item3, .item4{
 	padding: .5rem;
@@ -70,5 +64,16 @@
 	grid-column-end: 3;
 }
 .projetos_index{
-	margin-left: 15%
+	margin-left: 15rem;
+	font-family: 'Lora', sans-serif;
+}
+
+.navi {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+  width:  100%;
+  margin:0 auto;
+  padding: 2rem;
+  font-family: 'Lato', sans-serif;
 }

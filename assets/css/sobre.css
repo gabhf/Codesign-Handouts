@@ -11,7 +11,7 @@ body{
   width:  100%;
   margin:0 auto;
   padding: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lora', sans-serif;
 }
 
 .logo {
@@ -23,7 +23,6 @@ body{
   justify-content: center;
   margin-left: 2rem;
   display: flex;
-  background: black;
 }
 
 .texto_sobre{
@@ -33,13 +32,13 @@ body{
   padding:1rem;
   width: 100%;
   font-family: 'Lora', sans-serif;
-
 }
 
 .posicao_texto_sobre{
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 0.5rem;
   font-family: 'Red Hat Display', sans-serif;
 
 }
@@ -47,7 +46,6 @@ body{
 .texto_com_imagem{
   width: 50%;
   margin-right: 5rem;
-  background: blue;
   font-family: 'Lora', sans-serif;
 
 }
