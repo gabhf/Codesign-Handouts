@@ -7,111 +7,51 @@
 
 .navi {
 	display:flex;
-	flex-direction:row;
-	justify-content: space-around;
-	width:  70%;
-	height:3rem;
-	margin:0 auto;
+	margin: 1rem;
+	padding: 1rem;
+	justify-content: space-evenly;
+	font-family: 'Red Hat Display', sans-serif;
 }
-
-.imagemcat{
-	display: flex;
-	float: left;
-	margin-left:15%;
-	width: 15%
-
+.categoria{
+	margin: 0rem 5rem;
+	display: grid;
+	grid-template-rows: 2rem 25rem;
+	grid-template-columns:  1fr 1fr;
+	justify-items: center;
+	grid-gap: 1rem;
 }
-
-.projetos{
-	display: flex;
-	margin: 18% 10%;
-  margin-left: 32%
-}
-
 .categ_image{
-	display:flex ;
-	margin-left:18%;
-	padding:  0rem;
-	float: left;
-	width:30%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
 }
-
+.nome_categ{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	font-family: 'Lora', serif;
+}
 .texto_categ{
-	margin-right:18%;
-	margin-left:53%;
-	display: flex;
-	padding-top:1rem;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	font-family: 'Red Hat Display', sans-serif;
+}
+.projeto{
+  	margin: 1rem
+  	font-family: 'Red Hat Display', sans-serif;
 }
 
 .posicao_texto_cat{
-	margin-right:18%;
-	margin-left:53%;
-	display: flex;
-	justify-content: center;
 	padding-top:1.7rem;
 }
 
 .grade{
-	display: grid;
-	margin-top: -15% ;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr auto;
-	grid-template-columns: 1fr ;  
-	margin-left: 15%;
-
+	display: flex;
+	justify-content: center;
+	font-family: 'Red Hat Display', sans-serif;
 }
-
-.link1, .descricao1{
-	display: grid;
-	grid-row-start: 1;
-	grid-row-end: 1;
-	grid-column-start: 1;
-	grid-column-end: 1;
-  margin-left: 20%;
-}
-
-.img1{
-	display: grid;
-	grid-row-start: 2;
-	grid-row-end: 2;
-	grid-column-start: 1;
-	grid-column-end: 1;
-  margin-left: 20%;
-}
-
-.link2, .descricao2{
-	display: grid;
-	grid-row-start: 3;
-	grid-row-end: 3;
-	grid-column-start: 1;
-	grid-column-end: 1;
-  margin-left: 20%;
-}
-
-.img2{
-	display: grid;
-	grid-row-start: 4;
-	grid-row-end: 4;
-	grid-column-start: 1;
-	grid-column-end: 1;
-  margin-left: 20%;
-}
-
-.link3, .descricao3{
-	display: grid;
-	grid-row-start: 5;
-	grid-row-end: 5;
-	grid-column-start: 1;
-	grid-column-end: 1;
-  margin-left: 20%;
-}
-
-.img3{
-	display: grid;
-	grid-row-start: 6;
-	grid-row-end: 6;
-	grid-column-start: 1;
-	grid-column-end: 1;
-  margin-left: 20%;
-}
-
 
