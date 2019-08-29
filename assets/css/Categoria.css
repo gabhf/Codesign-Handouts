@@ -41,7 +41,7 @@
 	font-family: 'Red Hat Display', sans-serif;
 }
 .projeto{
-  	margin: 1rem
+	padding-bottom: 2rem;
   	font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -52,6 +52,6 @@
 .grade{
 	display: flex;
 	justify-content: center;
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Red Hat Display', sans-serif
 }
 
