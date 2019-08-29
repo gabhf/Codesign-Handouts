@@ -10,8 +10,9 @@ body{
 	justify-content: space-around;
   width:  100%;
   margin:0 auto;
-  padding: 2rem;
-  font-family: 'Lato', sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Lora', sans-serif;
 }
 
 .logo {
@@ -19,11 +20,12 @@ body{
 
 .sobre_image{
   width: 50%;
-  height: auto;
   justify-content: center;
   margin-left: 2rem;
   display: flex;
-  background: black;
+  margin:0.1rem;
+  max-width:100%;
+  height:auto;
 }
 
 .texto_sobre{
@@ -31,29 +33,30 @@ body{
   padding-top:1rem;
   align-content: center;
   padding:1rem;
-  width: 100%;
-  font-family: 'Lora', sans-serif;
-
+  width: auto;
+  font-family: 'Red Hat Display', sans-serif;
+  width: auto;
 }
 
 .posicao_texto_sobre{
   display: flex;
   justify-content: center;
-  width: 100%;
-  font-family: 'Red Hat Display', sans-serif;
-
+  width: auto;
+  margin-top: 0.5rem;
+  font-family: 'Lora', sans-serif;
 }
 
 .texto_com_imagem{
   width: 50%;
-  margin-right: 5rem;
-  background: blue;
+  justify-content: center;
+  padding: 1rem;
   font-family: 'Lora', sans-serif;
-
+  background: white;
 }
 
 .divisao_horizontal{
+  flex-flox: row;
   display: flex;
   direction: row;
-  width: 100%;
+  /*width: 100%;*/
 }
