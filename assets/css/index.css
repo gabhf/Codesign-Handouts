@@ -19,12 +19,11 @@
 	margin: 0.5rem;
 }
 .nav{
-	background-color: blue;
 	padding: 0.5rem;
 	display: grid;	
 	grid-template-rows: 1fr 1fr ;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 10rem 20rem;
+	grid-gap: 1rem 52rem;
 	justify-items: stretch;
 	align-items: stretch;
   font-family: 'Red Hat Display', sans-serif;
@@ -33,7 +32,6 @@
 	padding: .5rem;
 }
 .item1{
-	background-color: red;
 	padding: 0.5rem;
 	grid-row-start: 1;
 	grid-row-end: 2;
@@ -41,7 +39,6 @@
 	grid-column-end: 2;
 }
 .item2{
-	background-color: yellow;
 	grid-row-start: 2;
 	grid-row-end: 3;
 	grid-column-start: 1;
@@ -49,7 +46,6 @@
 
 }
 .item3{
-	background-color: turquoise;
 	grid-row-start: 1;
 	grid-row-end: 2;
 	grid-column-start: 2;
@@ -57,7 +53,6 @@
 
 }
 .item4{
-	background-color: green;
 	grid-row-start: 2;
 	grid-row-end: 3;
 	grid-column-start: 2;
@@ -69,11 +64,12 @@
 }
 
 .navi {
-	display:flex;
-	flex-direction:row;
-	justify-content: space-around;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
   width:  100%;
   margin:0 auto;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   font-family: 'Lora', sans-serif;
 }

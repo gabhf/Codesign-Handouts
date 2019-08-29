@@ -7,10 +7,13 @@
 
 .navi {
 	display:flex;
-	margin: 1rem;
-	padding: 1rem;
-	justify-content: space-evenly;
-	font-family: 'Red Hat Display', sans-serif;
+	flex-direction:row;
+	justify-content: space-around;
+  width:  100%;
+  margin:0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Lora', sans-serif;
 }
 .categoria{
 	margin: 0rem 5rem;
@@ -44,7 +47,7 @@
   margin: 1rem;
   font-family: 'Lora', serif;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .posicao_texto_cat{
