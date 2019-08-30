@@ -97,16 +97,17 @@
 }
 
 .navi {
-	display:flex;
-	flex-direction:row; 
-	justify-content: space-around;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
   width:  100%;
-  margin: 0rem auto;
+  margin:0 auto;
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Lora', sans-serif;
-  background-color: #292d40
-
+  background: #292d40;
+  font-size: 1.5rem;
+  border-radius: 2rem;
 }
 
 .Menu1, .Menu2 {
