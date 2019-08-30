@@ -2,45 +2,70 @@ body{
   background: #EDF0FF;
 }
 
+a{
+	text-decoration: none;
+}
+
+.link{  
+  color: #EDF0FF;
+  background: #525980;
+  padding: .5rem;
+}
+
 .header{
 	display: block
 }
-.container{
-	margin: 1rem;
-	padding: 1rem;
-	display: flex;
-	justify-content: space-evenly;
+
+.navi {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  width:  100%;
+  margin:0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Lora', sans-serif;
+  background: #525980;
+  font-size: 1.5rem;
+}
+
+.Menu1, .Menu2 {
+  color:#EDF0FF;
 }
 
 .img{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 1rem
+	
 }
+.projetos_index{
+	margin-left: 15%;
+	font-family: 'Lora', sans-serif;
+    font-size: 2rem;
+}
+
 .lista{
 	display: flex;
-	justify-content: center; 
+	justify-content: stretch; 
 	margin: 0.5rem;
 }
+
 .nav{
 	padding: 0.5rem;
 	display: grid;	
+	width: 100%;
 	grid-template-rows: 1fr 1fr ;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1rem 52rem;
-	justify-items: stretch;
+	grid-gap: 1rem ;
+	justify-items: center;
 	align-items: stretch;
-  font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 .item1, .item2, .item3, .item4{
 	padding: .5rem;
 }
 
-a{  
-  color: #EDF0FF;
-  background: #525980;
-  padding: .5rem;
-}
 .item1{
 	padding: 0.5rem;
 	grid-row-start: 1;
@@ -69,21 +94,11 @@ a{
 	grid-column-end: 3;
 }
 .projetos_index{
-	margin-left: 15rem;
+	margin-left: 15%;
 	font-family: 'Lora', sans-serif;
-}
-
-.navi {
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-  width:  100%;
-  margin:0 auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-family: 'Lora', sans-serif;
+    font-size: 2rem;
 }
 
 .logo {
-  padding: 0rem;
+    padding: 0rem;
 }
