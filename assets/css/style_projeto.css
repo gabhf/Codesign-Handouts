@@ -1,6 +1,5 @@
 
-.
-body, html{
+.html{
   margin:0;
   padding:0;
   width: 100%;
@@ -9,10 +8,24 @@ body, html{
   align-items: stretch;
 }
 
+
+.body{
+  margin:0;
+  padding:0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #edf0ff;
+}
+
 .Project-imgs{
   display: flex;
   justify-content: center;
-  margin: 5rem;
+  margin: 5rem; 
+  background: #292d40;
+  border-radius: 2rem;
+  padding: 2rem;
 }
 
 .project-container{
@@ -25,11 +38,16 @@ body, html{
   display: flex;
   flex-direction: column;
   align-content: flex-end;
+  background-color: #292d40;
+  padding: 2rem;
+  border-radius: 2rem;
 }
 .project-title{
   justify-content: center;
   display:flex;
   font-family: 'Lora', serif;
+  color: #edf0ff;
+  font-size: 2rem;
 
 }
 
@@ -37,6 +55,7 @@ body, html{
   align-items: flex-end; 
   display: flex;
   font-family: 'Red Hat Display', sans-serif;
+  color: #edf0ff;
 
 }
 
@@ -44,6 +63,7 @@ body, html{
   margin: 1rem;
   display:flex;
   font-family: 'Red Hat Display', sans-serif;
+  color: #edf0ff;
 
 }
 
@@ -52,6 +72,7 @@ body, html{
   align-items: flex-end; 
   margin-top: 15rem;
   font-family: 'Lora', serif;
+  color: #edf0ff;
 }
 
 .er-members{
@@ -60,18 +81,32 @@ body, html{
   align-items: flex-end;
   margin-top: 1rem;
   font-family: 'Red Hat Display', sans-serif;
+  color: #edf0ff;
 }
 
 .project-img{
+  border-radius: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #292d40;
+  display: flex;
+  align-items: center;
 }
 
 .navi {
 	display:flex;
-	flex-direction:row;
+	flex-direction:row; 
 	justify-content: space-around;
   width:  100%;
   margin: 0rem auto;
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Lora', sans-serif;
+  background-color: #292d40
+
+}
+
+.Menu1, .Menu2 {
+  color: #edf0ff;
+   font-size: 2rem;
 }
