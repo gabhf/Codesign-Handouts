@@ -13,6 +13,12 @@ body{
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Lora', sans-serif;
+  background: #292d40;
+  font-size: 1.5rem;
+}
+
+.Menu1, .Menu2 {
+  color:#EDF0FF;
 }
 
 .logo {
@@ -27,6 +33,13 @@ body{
   max-width:100%;
   height:auto;
 }
+
+.imagem { 
+  border-radius: 8px;
+  width: 100%;
+  padding:1rem;
+  background:#525980;
+ }
 
 .texto_sobre{
   display: flex;
