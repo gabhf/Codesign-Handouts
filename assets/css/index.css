@@ -30,11 +30,12 @@ body{
 	padding: .5rem;
 }
 
-a{  
+.link{  
   color: #EDF0FF;
   background: #525980;
   padding: .5rem;
 }
+
 .item1{
 	padding: 0.5rem;
 	grid-row-start: 1;
@@ -76,8 +77,14 @@ a{
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Lora', sans-serif;
+  background: #525980;
 }
 
 .logo {
   padding: 0rem;
+}
+
+.Menu1, .Menu2 {
+  color:#EDF0FF;
+
 }
