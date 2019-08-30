@@ -1,5 +1,5 @@
 .header {
-	width: 100%;
+	width: 70%;
 	justify-content: flex-start;
 	display: flex; 
 	margin: 0 auto;
@@ -7,13 +7,10 @@
 
 .navi {
 	display:flex;
-	flex-direction:row;
-	justify-content: space-around;
-  width:  100%;
-  margin:0 auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-family: 'Lora', sans-serif;
+	margin: 1rem;
+	padding: 1rem;
+	justify-content: space-evenly;
+	font-family: 'Red Hat Display', sans-serif;
 }
 .categoria{
 	margin: 0rem 5rem;
@@ -43,11 +40,10 @@
 	grid-row-end: 3;
 	font-family: 'Red Hat Display', sans-serif;
 }
-.projetos{
-  margin: 1rem;
-  font-family: 'Lora', serif;
-  display: flex;
-  justify-content: flex-start;
+.projeto{
+	padding-bottom: 2rem;
+  	padding: 1rem
+  	font-family: 'Red Hat Display', sans-serif;
 }
 
 .posicao_texto_cat{
@@ -57,6 +53,6 @@
 .grade{
 	display: flex;
 	justify-content: center;
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Red Hat Display', sans-serif
 }
 
