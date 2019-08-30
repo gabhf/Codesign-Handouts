@@ -2,7 +2,6 @@ body{
   display: flex;
   align-content: center;
   flex-direction: column;
-  background-color: #D2D7EF;
 }
 
 .navi {
@@ -14,8 +13,6 @@ body{
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Lora', sans-serif;
-  background-color: #D2D7EF;
-
 }
 
 .logo {

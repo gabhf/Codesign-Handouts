@@ -2,8 +2,6 @@ body{
   background: #EDF0FF;
 }
 
-
-
 .header{
 	display: block
 }
@@ -39,7 +37,9 @@ body{
 }
 
 a{  
-  color: #292d40;
+  color: #EDF0FF;
+  background: #525980;
+  padding: .5rem;
 }
 .item1{
 	padding: 0.5rem;
@@ -82,4 +82,8 @@ a{
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Lora', sans-serif;
+}
+
+.logo {
+  padding: 0rem;
 }
