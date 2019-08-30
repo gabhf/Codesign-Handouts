@@ -69,6 +69,8 @@ a{
 }
 .item1, .item2, .item3, .item4{
 	padding: .5rem;
+  background: #525980;
+  border-radius: 1rem;
 }
 
 .item1{
@@ -106,7 +108,7 @@ a{
 .imagem{
   background: #292d40;
   padding: 2rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
   border-radius: 8px;
 
 }
