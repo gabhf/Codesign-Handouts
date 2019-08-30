@@ -66,6 +66,8 @@ body{
 .projetos_index{
 	margin-left: 15rem;
 	font-family: 'Lora', sans-serif;
+  font-size: 2rem;
+
 }
 
 .navi {
@@ -78,6 +80,7 @@ body{
   padding-bottom: 2rem;
   font-family: 'Lora', sans-serif;
   background: #525980;
+  font-size: 1.5rem;
 }
 
 .logo {
