@@ -6,7 +6,7 @@
 }
 
 body{
-	background-color: #d2d7ef;
+	background-color: #EDF0FF;
 }
 
 .navi {
@@ -15,7 +15,16 @@ body{
 	padding: 1rem;
 	justify-content: space-evenly;
 	font-family: 'Red Hat Display', sans-serif;
+	background: #525980;
+  	font-size: 1.5rem;
+
 }
+
+.Menu1, .Menu2 {
+  	color:#EDF0FF;
+  	text-decoration: none;
+ }
+
 .categoria{
 	margin: 0rem 5rem;
 	display: grid;
@@ -23,12 +32,18 @@ body{
 	grid-template-columns:  1fr 1fr;
 	justify-items: center;
 	grid-gap: 1rem;
+
 }
 .categ_image{
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 1;
 	grid-row-end: 3;
+	border-radius: 2rem;
+	margin-top: 3rem;
+	background: #292d40;
+	padding: 2rem;
+
 }
 .nome_categ{
 	grid-column-start: 2;
@@ -36,6 +51,10 @@ body{
 	grid-row-start: 1;
 	grid-row-end: 2;
 	font-family: 'Lora', serif;
+	color: #292d40;
+	font-size: 2rem;
+
+
 }
 .texto_categ{
 	grid-column-start: 2;
@@ -43,11 +62,16 @@ body{
 	grid-row-start: 2;
 	grid-row-end: 3;
 	font-family: 'Red Hat Display', sans-serif;
+	background-color: #292d40;
+	color: #edf0ff;
+
+;
+
 }
 .projeto{
-	padding-bottom: 2rem;
-  	padding: 1rem
+  	padding: 5rem 5rem 2rem 5rem;
   	font-family: 'Red Hat Display', sans-serif;
+  	font-size: 2rem;
 }
 
 .posicao_texto_cat{
@@ -57,29 +81,28 @@ body{
 .grade{
 	display: flex;
 	justify-content: center;
-	font-family: 'Red Hat Display', sans-serif
+	font-family: 'Red Hat Display', sans-serif;
+	margin-left: 3rem;
 }
 
 .link1{
-
-}
-
-.descricao1{
+	background-color: #292d40;
+	color: #edf0ff;
+	line-height: 3rem;
 
 }
 
 .link2{
+	background-color: #292d40;
+	color: #edf0ff;
+	line-height: 3rem;
 
 }
 
-.descricao2{
-	
-}
 
 .link3{
+	background-color: #292d40;
+	color: #edf0ff;
+	line-height: 3rem;
 
-}
-
-.descricao3{
-	
 }
