@@ -21,7 +21,7 @@ body{
 	display: grid;	
 	grid-template-rows: 1fr 1fr ;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1rem 52rem;
+	grid-gap: 1rem ;
 	justify-items: stretch;
 	align-items: stretch;
   font-family: 'Red Hat Display', sans-serif;
