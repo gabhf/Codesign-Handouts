@@ -5,6 +5,10 @@
 	margin: 0 auto;
 }
 
+body{
+	background-color: #d2d7ef;
+}
+
 .navi {
 	display:flex;
 	margin: 1rem;
@@ -56,3 +60,26 @@
 	font-family: 'Red Hat Display', sans-serif
 }
 
+.link1{
+
+}
+
+.descricao1{
+
+}
+
+.link2{
+
+}
+
+.descricao2{
+	
+}
+
+.link3{
+
+}
+
+.descricao3{
+	
+}
