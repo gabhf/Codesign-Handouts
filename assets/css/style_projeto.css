@@ -9,6 +9,7 @@
 }
 
 
+
 .body{
   margin:0;
   padding:0;
@@ -41,6 +42,7 @@
   background-color: #292d40;
   padding: 2rem;
   border-radius: 2rem;
+  margin-left: 3rem;
 }
 .project-title{
   justify-content: center;
@@ -64,7 +66,7 @@
   display:flex;
   font-family: 'Red Hat Display', sans-serif;
   color: #edf0ff;
-
+  font-size: 1.2rem;
 }
 
 .project-er{
@@ -86,7 +88,8 @@
 
 .project-img{
   border-radius: 2rem;
-  margin: 2rem;
+  margin-right: 3rem;
+  margin-left: 2rem;
   padding: 2rem;
   background-color: #292d40;
   display: flex;
@@ -108,6 +111,6 @@
 
 .Menu1, .Menu2 {
   color: #edf0ff;
-   font-size: 2rem;
+   font-size: 1.5rem;
    text-decoration: none;
 }
