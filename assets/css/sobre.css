@@ -80,5 +80,6 @@ body{
   flex-flox: row;
   display: flex;
   direction: row;
-  /*width: 100%;*/
+  width: 100%
+  height: auto;
 }
