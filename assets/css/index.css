@@ -1,5 +1,5 @@
 body{
-  background: #EDF0FF;
+  background: #edf0ff;
 }
 
 a{
@@ -8,8 +8,6 @@ a{
 
 .link{  
   color: #EDF0FF;
-  background: #525980;
-  padding: .5rem;
 }
 
 .header{
@@ -25,8 +23,9 @@ a{
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Lora', sans-serif;
-  background: #525980;
+  background: #292d40;
   font-size: 1.5rem;
+  border-radius: 2rem;
 }
 
 .Menu1, .Menu2 {
@@ -36,13 +35,15 @@ a{
 .img{
 	display: flex;
 	justify-content: center;
-	margin-bottom: 1rem
+	margin-bottom: 1rem;
 	
 }
 .projetos_index{
-	margin-left: 15%;
-	font-family: 'Lora', sans-serif;
-    font-size: 2rem;
+  font-family: 'Lora', sans-serif;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-left: 2.8rem;
+
 }
 
 .lista{
@@ -52,18 +53,24 @@ a{
 }
 
 .nav{
-	padding: 0.5rem;
+	padding: 2rem;
 	display: grid;	
 	width: 100%;
 	grid-template-rows: 1fr 1fr ;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1rem ;
+	grid-gap: 2rem;
 	justify-items: center;
 	align-items: stretch;
-    font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+  background: #292d40;
+  margin: 2rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
 }
 .item1, .item2, .item3, .item4{
 	padding: .5rem;
+  background: #525980;
+  border-radius: 1rem;
 }
 
 .item1{
@@ -93,12 +100,15 @@ a{
 	grid-column-start: 2;
 	grid-column-end: 3;
 }
-.projetos_index{
-	margin-left: 15%;
-	font-family: 'Lora', sans-serif;
-    font-size: 2rem;
-}
 
 .logo {
     padding: 0rem;
+}
+
+.imagem{
+  background: #292d40;
+  padding: 2rem;
+  margin-top: 5rem;
+  border-radius: 8px;
+
 }
