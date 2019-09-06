@@ -10,43 +10,55 @@ body{
 }
 
 .navi {
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-  width:100%;
-  margin:0 auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-family: 'Lora', sans-serif;
-  background: #292d40;
-  font-size: 1.5rem;
-  border-radius: 2rem;
-  margin-bottom: 1.5rem;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width:100%;
+	margin:0 auto;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-family: 'Lora', serif;
+	background: #292d40;
+	font-size: 1.5rem;
+	border-radius: 2rem;
+	margin-bottom: 1.5rem;
+}
+.menu{
+	display: none;
+}
+.Menu1, .Menu2 {
+	color:#EDF0FF;
+	text-decoration: none;
 }
 
-.Menu1, .Menu2 {
- color:#EDF0FF;
- text-decoration: none;
-}
 
 .categoria{
-	margin: 0rem 5rem;
+	margin: 0rem 2rem;
 	display: grid;
-	grid-template-rows: 2rem 25rem;
+	grid-template-rows: 2rem 20rem;
 	grid-template-columns:  1fr 1fr;
 	justify-items: center;
-	grid-gap: 1rem;
+	grid-gap: .1rem;
+
+	
+
 }
-.categ_image{
+.imagem{
+	display:flex;
 	grid-column-start: 1;
 	grid-column-end: 1;
 	grid-row-start: 1;
 	grid-row-end: 3;
 	border-radius: 2rem;
-  display: grid;
-	margin-top: 3rem;
 	background: #292d40;
-	padding: 2rem;
+	padding: .4rem;
+	
+
+}
+
+.categ_image{
+	width: 100%;
+	border-radius: 2rem;
 }
 .nome_categ{
 	grid-column-start: 2;
@@ -65,22 +77,22 @@ body{
 	font-family: 'Red Hat Display', sans-serif;
 	background-color: #292d40;
 	color: #edf0ff;
-  padding: 2rem;
-  border-radius: 2rem;
-  font-size: 1.2rem;
+	padding: 2rem;
+	border-radius: 2rem;
+	font-size: 1.2rem;
 }
+
 .projeto{
- padding: 5rem 0rem 2rem 0rem;
- font-family: 'Red Hat Display', sans-serif;
- font-size: 2rem;
+	display: block;
+	padding: 5rem 0rem 2rem 0rem;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 2rem;
 }
-
-.posicao_texto_cat{
-	padding-top:1.7rem;
+.main{
 }
-
-.grade{
+.lista{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	font-family: 'Red Hat Display', sans-serif;
 }
@@ -89,14 +101,15 @@ body{
 	background-color: #292d40;
 	color: #edf0ff;
 	line-height: 3rem;
-  padding: .3rem;
-  font-size: 1.5rem;
+	padding: .3rem;
+	font-size: 1.5rem;
 }
 
 .descricao1, .descricao2, .descricao3{
-  margin-top: 1rem; 
-  margin-bottom: 1rem;
+	margin-top: 1rem; 
+	margin-bottom: 1rem;
 }
 .img1, .img2, .img3{
-  margin-bottom: 1rem;
+	width: 100%;
+	margin-bottom: 1rem;
 }
