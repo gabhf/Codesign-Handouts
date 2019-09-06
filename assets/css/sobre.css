@@ -1,4 +1,4 @@
-body{
+.body{
   display: flex;
   align-content: center;
   flex-direction: column;
@@ -19,7 +19,7 @@ body{
   border-radius: 2rem;
 }
 
-.Menu1, .Menu2 {
+.Menu1, .Menu2, .Menu3 {
   color:#EDF0FF;
   text-decoration: none;
 }
@@ -27,17 +27,22 @@ body{
 .logo {
 }
 
-.sobre_image{
-  width: 50%;
-  height: auto;
+.figure{  
   justify-content: center;
   margin-left: 2rem;
   display: flex;
   margin:0.1rem;
+  margin-left: 2rem;
+}
+
+.sobre_image{
+  width: 50%;
+  height: auto;
 }
 
 .imagem { 
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   padding:1rem;
   margin: 2rem;
   background:#292d40;
@@ -48,7 +53,6 @@ body{
   display: flex;
   padding-top:1rem;
   align-content: center;
-  padding:1rem;
   width: auto;
   font-family: 'Red Hat Display', sans-serif;
   color:#EDF0FF;
@@ -71,7 +75,6 @@ body{
   font-family: 'Lora', sans-serif;
   margin: 2rem;
   padding:1rem;
-  margin: 2rem;
   background:#292d40;
   border-radius: 2rem;
 }
@@ -79,7 +82,33 @@ body{
 .divisao_horizontal{
   flex-flox: row;
   display: flex;
-  direction: row;
-  width: 100%
+  width: 100%;
   height: auto;
+}
+
+@media (max-width: 500px) {
+  .Menu1, .Menu2, .Menu3 {
+    display: none;
+  }
+.divisao_horizontal{
+  flex-flow: column;
+}
+
+.imagem, .sobre_image{
+  justify-content: center;
+  margin: 0rem;
+  width: 100%;
+}
+
+.texto_com_imagem{
+  width:  100%;
+  margin:  1rem;
+}
+
+.texto_sobre{
+  padding:  0rem;
+}
+.sobre_image{
+  width:  100%;
+  margin:0rem;
 }
