@@ -33,7 +33,7 @@ body{
 }
 
 .menu_tag, .figura{
-  display: none;
+	display: none;
 }
 
 .categoria{
@@ -119,57 +119,57 @@ body{
 }
 
 .menu_tag, .figura{
-  display: none;
+	display: none;
 }
 
 
 .figure{  
-  justify-content: center;
-  margin-left: 2rem;
-  display: flex;
-  margin:0.1rem;
-  margin-left: 2rem;
- }
+	justify-content: center;
+	margin-left: 2rem;
+	display: flex;
+	margin:0.1rem;
+	margin-left: 2rem;
+}
 
 @media (max-width: 420px) {
 	.navi{
-    	display:  none;
+		display:  none;
 	}
 
-	 .Menu1, .Menu2, .Menu3 {
-    display: none;
-  	}
+	.Menu1, .Menu2, .Menu3 {
+		display: none;
+	}
 
-  	.figure{
-  		justify-content: center;
-    	margin: 0rem;
-    	width: 100%;
-  	}
+	.figure{
+		justify-content: center;
+		margin: 0rem;
+		width: 100%;
+	}
 
-  	.menu_tag{
-    display:flex;
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
+	.menu_tag{
+		display:flex;
+		width: 50%;
+		height: 50%;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.header{
-    display:  flex;
-    width: 100%
-  	}
+		display:  flex;
+		width: 100%
+	}
 
 	.figura{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    max-width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		max-width: 100%;
 	}
 
 
-  	 .logo{
-    width: 190px
-  	}
+	.logo{
+		width: 190px
+	}
 
 
 	.imagem{
@@ -179,28 +179,25 @@ body{
 		grid-row-start: 1;
 		grid-row-end: 3;
 		width: 100%;
-		
 	}
 
-	}
-	.nome_categ{
-		display: flex;
-		width: 100%;
-		grid-column-start: 1;
-		grid-column-end: 3;
-		grid-row-start: 3;
-		grid-row-end: 4;
-		margin-top: 3rem;
-	}
+  .nome_categ{
+  	display: flex;
+  	width: 100%;
+  	grid-column-start: 1;
+  	grid-column-end: 3;
+  	grid-row-start: 3;
+  	grid-row-end: 4;
+  	margin-top: 3rem;
+  }
 
-	.texto_categ{
-		width: 100%;
-		grid-column-start: 1;
-		grid-column-end: 3;
-		grid-row-start: 4;
-		grid-row-end: 4;
-		margin-top: 1rem;
-		padding: 1rem;
-
-	}
+  .texto_categ{
+  	width: 100%;
+  	grid-column-start: 1;
+  	grid-column-end: 3;
+  	grid-row-start: 4;
+  	grid-row-end: 4;
+  	margin-top: 1rem;
+  	padding: 1rem;
+  }
 }
