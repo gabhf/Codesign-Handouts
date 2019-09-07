@@ -99,6 +99,10 @@
 .header{
   display:flex;
 }
+
+.posicao_titulo_sobre_mobile{
+  display: none
+}
 @media (max-width: 420px) {
   .Menu1, .Menu2, .Menu3 {
     display: none;
@@ -164,10 +168,20 @@
   }
 
   .posicao_texto_sobre{
-    margin-bottom:1rem;
+    display: none
   }
 
   .logo{
     width: 190px
+  }
+
+  .posicao_titulo_sobre_mobile{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    margin-top: 0rem;
+    font-family: 'Lora', sans-serif;
+    font-size: 2rem;
+
   }
 }
