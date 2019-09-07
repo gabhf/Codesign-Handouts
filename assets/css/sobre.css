@@ -44,7 +44,7 @@
   max-width: 100%;
   height: auto;
   padding:1rem;
-  margin: 2rem;
+  margin: 1rem;
   background:#292d40;
   border-radius: 2rem;
  }
@@ -70,13 +70,14 @@
 }
 
 .texto_com_imagem{
-  width: 50%;
+  width: 45%;
   justify-content: center;
   font-family: 'Lora', sans-serif;
-  margin: 2rem;
+  margin: 1rem;
   padding:1rem;
   background:#292d40;
   border-radius: 2rem;
+  margin-left: 2rem;
 }
 
 .divisao_horizontal{
@@ -84,6 +85,7 @@
   display: flex;
   width: 100%;
   height: auto;
+  justify-content: space-around;
 }
 
 .menu_tag, .figura{
@@ -93,42 +95,79 @@
 .figura{
   display: none
 }
-@media (max-width: 500px) {
+
+.header{
+  display:flex;
+}
+@media (max-width: 420px) {
   .Menu1, .Menu2, .Menu3 {
     display: none;
   }
 
   .divisao_horizontal{
     flex-flow: column;
+    margin:0rem;
+    padding: 0rem;
+    justify-content: center;
+    align-items: center;
   }
 
-  .imagem, .sobre_image{
+  .imagem, .sobre_image, .figure{
     justify-content: center;
     margin: 0rem;
     width: 100%;
   }
-
+  .imagem{
+    justify-content: center;
+  }
   .texto_com_imagem{
-    width:  100%;
-    margin:  1rem;
+    width:  70%;
+    justify-content: center;
+    flex-flow: center;
+    margin:0rem;
+    margin-top: 1.5rem;
   }
 
   .texto_sobre{
     padding:  0rem;
   }
   .sobre_image{
-    width:  100%;
+    width:  70%;
     margin:0rem;
+    padding: 0rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .menu_tag{
     display:flex;
-    width: 10%;
+    width: 50%;
+    height: 50%;
     justify-content: center;
-    align-items: flex-end;
-    margin: 2rem; 
+    align-items: center;
+  }
+
+  .header{
+    display:  flex;
+    width: 100%
   }
 
   .figura{
-    display: flex
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    max-width: 100%;
   }
+
+  .navi{
+    display:  none;
+  }
+
+  .posicao_texto_sobre{
+    margin-bottom:1rem;
+  }
+
+  .logo{
+    width: 190px
+  }
+}
