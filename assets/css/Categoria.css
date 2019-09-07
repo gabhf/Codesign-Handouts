@@ -7,6 +7,7 @@
 
 body{
 	background: #edf0ff;
+
 }
 
 .navi {
@@ -26,11 +27,14 @@ body{
 .menu{
 	display: none;
 }
-.Menu1, .Menu2 {
+.Menu1, .Menu2, .Menu3 {
 	color:#EDF0FF;
 	text-decoration: none;
 }
 
+.menu_tag, .figura{
+  display: none;
+}
 
 .categoria{
 	margin: 0rem 2rem;
@@ -39,8 +43,6 @@ body{
 	grid-template-columns:  1fr 1fr;
 	justify-items: center;
 	grid-gap: .1rem;
-
-	
 
 }
 .imagem{
@@ -52,13 +54,13 @@ body{
 	border-radius: 2rem;
 	background: #292d40;
 	padding: .4rem;
-	
 
 }
 
 .categ_image{
 	width: 100%;
 	border-radius: 2rem;
+	height: auto;
 }
 .nome_categ{
 	grid-column-start: 2;
@@ -77,9 +79,10 @@ body{
 	font-family: 'Red Hat Display', sans-serif;
 	background-color: #292d40;
 	color: #edf0ff;
-	padding: 2rem;
+	padding: 1rem;
 	border-radius: 2rem;
 	font-size: 1.2rem;
+	width: 100%;
 }
 
 .projeto{
@@ -87,6 +90,7 @@ body{
 	padding: 5rem 0rem 2rem 0rem;
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 2rem;
+	margin: 2rem;
 }
 .main{
 }
@@ -112,4 +116,91 @@ body{
 .img1, .img2, .img3{
 	width: 100%;
 	margin-bottom: 1rem;
+}
+
+.menu_tag, .figura{
+  display: none;
+}
+
+
+.figure{  
+  justify-content: center;
+  margin-left: 2rem;
+  display: flex;
+  margin:0.1rem;
+  margin-left: 2rem;
+ }
+
+@media (max-width: 420px) {
+	.navi{
+    	display:  none;
+	}
+
+	 .Menu1, .Menu2, .Menu3 {
+    display: none;
+  	}
+
+  	.figure{
+  		justify-content: center;
+    	margin: 0rem;
+    	width: 100%;
+  	}
+
+  	.menu_tag{
+    display:flex;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+	}
+
+	.header{
+    display:  flex;
+    width: 100%
+  	}
+
+	.figura{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    max-width: 100%;
+	}
+
+
+  	 .logo{
+    width: 190px
+  	}
+
+
+	.imagem{
+		display: flex;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 3;
+		width: 100%;
+		
+	}
+
+	}
+	.nome_categ{
+		display: flex;
+		width: 100%;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 4;
+		margin-top: 3rem;
+	}
+
+	.texto_categ{
+		width: 100%;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 4;
+		grid-row-end: 4;
+		margin-top: 1rem;
+		padding: 1rem;
+
+	}
 }
