@@ -111,15 +111,14 @@ a{
 	background: #292d40;
 	padding: 2rem;
 	margin-top: 5rem;
-	border-radius: 8px;
-	width: 90%;
+	border-radius: 2rem;
+	width: 80%;
 }
 .menu_tag, .figura{
 	display: none;
 }
 
 @media (max-width: 420px) {
-
 	.menu_tag{
 		display:flex;
 		width: 50%;
@@ -135,6 +134,12 @@ a{
 		align-items:center;
 		max-width: 100%;
 	}
+  .imagem{
+    justify-content: center;
+    align-items:center;
+    margin-top: 0rem;
+    padding:2rem;
+  }
 	.navi{
 		display:  none;
 	}
@@ -143,9 +148,11 @@ a{
 	}
 
 	.figura_index{
-		width: 90%;
+		max-width: 100%;
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
+    align-items: center;
+    margin:2rem;
 	}
 	.nav{
 		display: flex;
@@ -155,7 +162,4 @@ a{
 		margin:0;
 		padding: 1rem;
 	}	
-	.imagem{
-		margin-top: 1rem;
-	}
 }
