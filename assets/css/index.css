@@ -28,15 +28,19 @@ a{
   border-radius: 2rem;
 }
 
-.Menu1, .Menu2 {
-  color:#EDF0FF;
+.Menu1, .Menu2, .Menu3  {
+  color: #edf0ff;
+   font-size: 1.5rem;
+   text-decoration: none;
 }
-
 .img{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 1rem;
-	
+
+}
+.figura_index{
+  align-items: center;
 }
 .projetos_index{
   font-family: 'Lora', sans-serif;
@@ -49,7 +53,7 @@ a{
 .lista{
 	display: flex;
 	justify-content: stretch; 
-	margin: 0.5rem;
+	margin: 2rem;
 }
 
 .nav{
@@ -71,6 +75,7 @@ a{
 	padding: .5rem;
   background: #525980;
   border-radius: 1rem;
+  margin:1rem;
 }
 
 .item1{
@@ -110,5 +115,54 @@ a{
   padding: 2rem;
   margin-top: 5rem;
   border-radius: 8px;
+  width: 90%;
+}
+.menu_tag, .figura{
+  display: none;
+}
 
+@media (max-width: 420px) {
+  .Menu1, .Menu2, .Menu3 {
+    display: none;
+  }
+
+  .menu_tag{
+    display:flex;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .header{
+    display:  flex;
+    width: 100%
+  }
+  .figura{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    max-width: 100%;
+  }
+  .navi{
+    display:  none;
+  }
+  .logo{
+    width: 190px
+  }
+
+  .imagem{
+    width: 100%;
+    display: flex;
+    margin:0rem;
+    padding: 2rem;
+  }
+
+  .img{
+
+  }
+  }
+  .nav{
+    margin:0;
+    padding: 0;
+  }
 }
