@@ -22,8 +22,21 @@
   justify-content: center;
   margin: 5rem; 
   background: #292d40;
+  width: auto;
   border-radius: 2rem;
   padding: 2rem;
+}
+
+.Project-imgs img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.Project-img img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
 }
 
 .project-container{
@@ -41,6 +54,7 @@
   border-radius: 2rem;
   margin-left: 3rem;
 }
+
 .project-title{
   justify-content: center;
   display:flex;
@@ -81,14 +95,16 @@
   color: #edf0ff;
 }
 
-.project-img{
-  border-radius: 2rem;
+.Project-img{
+  border-radius: 1rem;
   margin-right: 3rem;
   margin-left: 2rem;
-  padding: 2rem;
+  padding: 1rem;
+  margin-top: 0.5rem;
   background-color: #292d40;
   display: flex;
   align-items: center;
+  height: auto;
 }
 
 .navi {
@@ -105,8 +121,65 @@
   border-radius: 2rem;
 }
 
-.Menu1, .Menu2 {
+.Menu1, .Menu2, .Menu3  {
   color: #edf0ff;
    font-size: 1.5rem;
    text-decoration: none;
+}
+
+.menu_tag, .figura{
+  display: none;
+}
+
+@media (max-width: 420px) {
+  .project-container{
+    flex-direction: column;
+    align-content: center;
+    padding-top: 0rem;
+  }
+
+  .Menu1, .Menu2, .Menu3 {
+    display: none;
+  }
+
+  .navi{
+    display: none;
+  }
+  
+  .project-class{
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .Project-img{
+    margin: 0rem;
+  }
+
+  .Project-imgs{
+    margin: 2rem;
+    padding: 1rem
+    
+  }
+
+  .header{
+    display: flex;
+  }
+
+  .figura{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+  }
+
+  .menu_tag{
+    display: flex;
+    width: 50%;
+    height: 50%
+  }
+
+  .logo{
+    width: 190px;
+  }
+
 }
