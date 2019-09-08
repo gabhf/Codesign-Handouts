@@ -35,7 +35,9 @@ a{
 
 }
 .figura_index{
+	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 .projetos_index{
 	font-family: 'Lora', sans-serif;
