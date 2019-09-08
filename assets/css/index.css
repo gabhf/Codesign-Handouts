@@ -32,11 +32,6 @@ a{
 	color: #edf0ff;
 	font-size: 1.5rem;
 	text-decoration: none;
-}
-.img{
-	display: flex;
-	justify-content: center;
-	margin-bottom: 1rem;
 
 }
 .figura_index{
@@ -122,16 +117,11 @@ a{
 }
 
 @media (max-width: 420px) {
-	.Menu1, .Menu2, .Menu3 {
-		display: none;
-	}
 
 	.menu_tag{
 		display:flex;
 		width: 50%;
 		height: 50%;
-		justify-content: center;
-		align-items: center;
 	}
 	.header{
 		display:  flex;
@@ -150,11 +140,9 @@ a{
 		width: 190px
 	}
 
-	.imagem{
-		width: 100%;
+	.figura_index{
+		width: 90%;
 		display: flex;
-		margin:0rem;
-		padding: 2rem;
 	}
 	.nav{
 		display: flex;
