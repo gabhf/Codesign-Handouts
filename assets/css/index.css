@@ -145,6 +145,7 @@ a{
 	.figura_index{
 		width: 90%;
 		display: flex;
+		justify-content: flex-start;
 	}
 	.nav{
 		display: flex;
@@ -154,4 +155,7 @@ a{
 		margin:0;
 		padding: 1rem;
 	}	
+	.imagem{
+		margin-top: 1rem;
+	}
 }
