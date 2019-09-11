@@ -9,5 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.link1', context)
     coDesReplace('.descricao1', context)
     coDesReplace('.img1', context)
+    coDesReplace('.lista', context)
     })
 })
