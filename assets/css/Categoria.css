@@ -9,6 +9,19 @@ body{
 	background: #edf0ff;
 }
 
+.Ul{
+	width: 100%;
+
+}
+
+.ind{
+	background: #292d40;
+	margin: 2rem;
+	border-radius: 1rem;
+	padding: 1rem;
+
+}
+
 .navi {
 	display:flex;
 	flex-direction:row;
@@ -106,23 +119,25 @@ body{
 }
 
 .link1{
-	background-color: #292d40;
 	color: #edf0ff;
-	line-height: 3rem;
-	padding: .3rem;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	text-decoration: none;
+	margin-top: 1rem;
+	font-family: 'Lora', serif;
 }
 
 .descricao1{
 	margin-top: 1rem; 
 	margin-bottom: 1rem;
-  	font-size: 1.5rem;
+	font-size: 1.5rem;
+	font-family: 'Red Hat Display', sans-serif;
+	color: #edf0ff;
 }
 
 .img1{
 	width: 100%;
 	margin-bottom: 1rem;
+	border-radius: 1rem;
 }
 
 .menu_tag, .figura{
