@@ -29,10 +29,8 @@
 
 .figure{  
   justify-content: center;
-  margin-left: 2rem;
   display: flex;
   margin:0.1rem;
-  margin-left: 2rem;
 }
 
 .sobre_image{
@@ -85,7 +83,7 @@
   display: flex;
   width: 100%;
   height: auto;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .menu_tag, .figura{
@@ -115,7 +113,7 @@
   .imagem, .sobre_image, .figure{
     justify-content: center;
     margin: 0rem;
-    width: 100%;
+    max-width: 100%;
   }
   .imagem{
     justify-content: center;
@@ -141,8 +139,7 @@
 
   .menu_tag{
     display:flex;
-    width: 50%;
-    height: 50%;
+    width: 4.5rem;
     justify-content: center;
     align-items: center;
   }
@@ -156,7 +153,8 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    max-width: 100%;
+    width: 100%;
+
   }
 
   .navi{
