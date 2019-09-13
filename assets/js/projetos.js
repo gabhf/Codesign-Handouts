@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let value = params['key']
 
     db.download('/', function(data) {
-    context = data["portfolio"][value]
+    context = data["portfolio"]["projetos"][value]
     console.log(context)
     coDesReplace('.lista', context)
     coDesReplace('.nome_categ', context)    

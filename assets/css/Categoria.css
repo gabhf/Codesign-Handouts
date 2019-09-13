@@ -1,7 +1,7 @@
 .header {
 	width: 100%;
 	justify-content: flex-start;
-	display: flex; 
+	display: flex ; 
 	margin: 0 auto;
 }
 
@@ -55,14 +55,14 @@ body{
 	border-radius: 2rem;
 	background: #292d40;
 	padding: 2rem;
-  justify-content:  center;
-  max-width:  80%;
-  align-items:  center;
+  	justify-content:  center;
+  	max-width:  80%;
+  	align-items:  center;
 }
 
 .categ_image{
 	max-width: 100%;
-  align-items: center;
+  	align-items: center;
 }
 
 .nome_categ{
@@ -94,7 +94,7 @@ body{
 	padding: 2rem 0rem 2rem 0rem;
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 2rem;
-  justify-content: flex-start;
+  	justify-content: flex-start;
 }
 
 .lista{
@@ -105,7 +105,7 @@ body{
  	margin: 2rem;
 }
 
-.link1, .link2, .link3{
+.link1{
 	background-color: #292d40;
 	color: #edf0ff;
 	line-height: 3rem;
@@ -114,13 +114,13 @@ body{
 	text-decoration: none;
 }
 
-.descricao1, .descricao2, .descricao3{
+.descricao1{
 	margin-top: 1rem; 
 	margin-bottom: 1rem;
-  font-size: 1.5rem;
+  	font-size: 1.5rem;
 }
 
-.img1, .img2, .img3{
+.img1{
 	width: 100%;
 	margin-bottom: 1rem;
 }
