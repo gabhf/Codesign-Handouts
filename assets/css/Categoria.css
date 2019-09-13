@@ -104,7 +104,7 @@ body{
 
 .projeto{
 	display: block;
-	padding: 2rem 0rem 2rem 0rem;
+	padding: 2rem 0rem 2rem 2rem;
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 2rem;
   	justify-content: flex-start;
@@ -191,51 +191,52 @@ body{
 		width: 190px
 	}
 
-  .categoria{
-    margin: 0rem 2rem;
-    display: grid;
-    grid-template-rows: 15rem;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items:  center;
-    grid-gap: .5rem;
-  }
-  .imagem{
-    display: flex;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    max-width: 100%;
-    height: auto;
-    padding:1rem;
-  }
+	.categoria{
+		margin: 0rem 2rem;
+		display: grid;
+		grid-template-rows: 15rem;
+		grid-template-columns: 1fr;
+		justify-content: center;
+		align-items:  center;
+		grid-gap: .5rem;
+	}
+	.imagem{
+		display: flex;
+		grid-row-start: 1;
+		grid-row-end: 3;
+		max-width: 100%;
+		height: auto;
+		padding:1rem;
+	}
 
-  .categ_image{
-    width: 100%
-  }
+	.categ_image{
+		width: 100%;
+		border-radius:2rem;
+	}
 
-  .nome_categ{
-  	display: flex;
-  	width: 100%;
-  	grid-column-start: 1;
-  	grid-column-end: 3;
-  	grid-row-start: 3;
-  	grid-row-end: 4;
-  	margin-top: 2rem;
-    justify-content: center
-  }
+	.nome_categ{
+		display: flex;
+		width: 100%;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 4;
+		margin-top: 2rem;
+		justify-content: center
+	}
 
-  .texto_categ{
-  	max-width: 99%;
-  	grid-column-start: 1;
-  	grid-column-end: 3;
-  	grid-row-start: 4;
-  	grid-row-end: 4;
-  	margin-top: 1rem;
-  	padding: 1rem;
-    margin-right:  .5rem;
-  }
+	.texto_categ{
+		max-width: 99%;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 4;
+		grid-row-end: 4;
+		margin-top: 1rem;
+		padding: 1rem;
+		margin-right:  .5rem;
+	}
 
-  .projeto{
-    padding-top: 0rem;
-  }
+	.projeto{
+		padding-top: 0rem;
+	}
 }
