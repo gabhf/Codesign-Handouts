@@ -70,9 +70,10 @@ a{
 }
 .item1, .item2, .item3, .item4{
 	padding: .5rem;
-	background: #525980;
 	border-radius: 1rem;
 	margin:1rem;
+	font-size: 2.5rem;
+
 }
 
 .item1{
