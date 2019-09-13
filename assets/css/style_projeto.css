@@ -55,6 +55,7 @@
   padding: 2rem;
   border-radius: 2rem;
   margin-left: 0rem;
+  margin-right: 1rem;
 }
 
 .project-title{
@@ -100,7 +101,7 @@
 .Project-img{
   border-radius: 2rem;
   margin-right: 0rem;
-  margin-left: 0rem;
+  margin-left: 1rem;
   padding: 1rem;
   margin-top: 0rem;
   background-color: #292d40;
@@ -163,6 +164,7 @@
   .Project-img{
     margin: 0rem;
     border-radius: 2rem;
+    margin-left: 0rem;
   }
 
   .Project-imgs{
@@ -192,4 +194,7 @@
     width: 190px;
   }
 
+  .project-class{
+    margin-right: 0rem;
+  }
 }
