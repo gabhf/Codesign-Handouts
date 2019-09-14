@@ -37,22 +37,21 @@ body{
 	margin-bottom: 1.5rem;
 }
 
-.menu{
-	display: none;
-}
 
 .Menu1, .Menu2, .Menu3 {
 	color:#EDF0FF;
 	text-decoration: none;
 }
 
+
+.Menu2:hover .box1 p{
+	display: flex;
+}
+
 .box1, .box2, .box3, .box4{
 	display: none;
 }
-.Menu2:hover{
-	display: flex;
 
-	
 }
 .menu_tag, .figura{
 	display: none;
