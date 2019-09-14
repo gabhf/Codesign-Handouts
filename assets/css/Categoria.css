@@ -33,6 +33,14 @@ body{
 	text-decoration: none;
 }
 
+.box1, .box2, .box3, .box4{
+	display: none;
+}
+.Menu2:hover{
+	display: flex;
+
+	
+}
 .menu_tag, .figura{
 	display: none;
 }
