@@ -47,17 +47,17 @@
   </div>
   <main class="main">
     <div class="lista">  
-      <ul>
+      <ul class = "UL">
         <li>
           <h1 class="projeto">
             Projetos:
           </h1>
         </li>
         {{#each projetos}}
-        <li>
-          <a class="link1" href="projeto.html?key={{@key}}">{{this.titulo}}</a>
+        <li class = "ind">
+          <a class="link1" href="projeto.html?pai=value&key={{@key}}">{{this.titulo}}</a>
           <p class="descricao1">{{this.descricao}}</p>
-          <img class="img1" src="https://picsum.photos/1000/100/?random" alt="projeto dos ambulantes">
+          <img class="img1" src="https://picsum.photos/1400/200/?random" alt="projeto dos ambulantes">
         </li>
         {{/each}}
       </ul>

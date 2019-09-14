@@ -3,11 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
     let params = coDesExtract()
 
     let value = params['key']
+    let value2 = params["pai"]
+    console.log(value2)
 
     db.download('/', function(data) {
-    context = data["portfolio"]["projetos"][value]
+    context = data["portfolio"][value2]["projetos"][value]
     console.log(context)
-    coDesReplace('.lista', context)
-    coDesReplace('.nome_categ', context)    
+    coDesReplace("title", context)
+    coDesReplace('.project-title', context)
+    coDesReplace('.project-container', context)   
     })
 })
