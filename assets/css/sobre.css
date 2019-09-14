@@ -30,8 +30,7 @@
 .figure{  
   justify-content: center;
   display: flex;
-  margin:0.1rem;
-}
+  margin: 1rem;}
 
 .sobre_image{
   width: 50%;
@@ -39,10 +38,9 @@
 }
 
 .imagem { 
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
   padding:1rem;
-  margin: 1rem;
   background:#292d40;
   border-radius: 2rem;
 }
@@ -68,10 +66,11 @@
 }
 
 .texto_com_imagem{
-  width: 45%;
+  width: 47%;
   justify-content: center;
   font-family: 'Lora', sans-serif;
   margin: 1rem;
+  margin-right: 0.5rem;
   padding:1rem;
   background:#292d40;
   border-radius: 2rem;
