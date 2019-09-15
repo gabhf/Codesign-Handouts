@@ -185,7 +185,7 @@ body{
 		margin-bottom: 1rem;
 		object-fit: cover;
 		width: 350px;
-		height: 100px;
+		height: 80px;
 		max-width: 100%;
 		object-position: 0 +20%;
 	}
@@ -241,9 +241,9 @@ body{
 	}
 
 	.categ_image_figure{
-	max-width: 100%;
-	display:flex;
-	justify-content: center;
+		max-width: 100%;
+		display:flex;
+		justify-content: center;
 	}
 
 	.nome_categ{
@@ -277,11 +277,12 @@ body{
 	}
 }
 
-@media (max-width: 1070px)and(min-width:421px) {
+@media (max-width: 1070px) and (min-width: 421px) {
 	.img1{
 		margin-bottom: 1rem;
 		object-fit: cover;
-		height: 200px;
+		height: 100px;
 		max-width: 100%;
 		object-position: 0 +20%;
 	}
+}
