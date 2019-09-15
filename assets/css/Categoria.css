@@ -147,16 +147,24 @@ body{
 	align-items: center;
 }
 
+.imagenscropadas{
+	max-width: 100%;
+}
+
 .img1{
-	width: 100%;
 	margin-bottom: 1rem;
+	object-fit: cover;
+	width: 1600px;
+	height: 250px;
+	max-width: 100%;
+	object-position: 0 +20%;
 }
 
 .menu_tag, .figura{
 	display: none;
 }
 
-.figure{  
+.figura{  
 	justify-content: center;
 	margin-left: 2rem;
 	display: flex;
@@ -173,12 +181,14 @@ body{
 		display: none;
 	}
 
-	.figure{
-		justify-content: center;
-		margin: 0rem;
-		width: 100%;
+	.img1{
+		margin-bottom: 1rem;
+		object-fit: cover;
+		width: 350px;
+		height: 80px;
+		max-width: 100%;
+		object-position: 0 +20%;
 	}
-
 	.menu_tag{
 		display:flex;
 		width: 4.5rem;
@@ -256,3 +266,12 @@ body{
 		padding-bottom: 0rem
 	}
 }
+
+@media (max-width: 1070px) {
+	.img1{
+		margin-bottom: 1rem;
+		object-fit: cover;
+		height: 150px;
+		max-width: 100%;
+		object-position: 0 +20%;
+	}

@@ -47,7 +47,9 @@
         <li class = "ind">
           <a class="link1" href="projeto.html?pai=value&key={{@key}}">{{this.titulo}}</a>
           <p class="descricao1">{{this.descricao}}</p>
-          <img class="img1" src="https://picsum.photos/1400/300/?random" alt={{this.titulo}}>
+          <figure class="imagenscropadas">
+            <img class="img1" src={{this.imagem}} alt={{this.titulo}}>
+          </figure>
         </li>
         {{/each}}
       </ul>
