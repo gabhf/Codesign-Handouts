@@ -31,27 +31,28 @@ body{
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	font-family: 'Lora', serif;
-	background: #292d40;
 	font-size: 1.5rem;
 	border-radius: 2rem;
 	
 }
 
 .Menu1, .Menu2, .Menu3 {
+
+	border-radius: 2rem;
+	width:auto;
+	background: #292d40;
 	color:#EDF0FF;
 	text-decoration: none;
 }
 
-
-.Menu2:hover .box1 p{
-	display: flex;
-}
-
-.box1, .box2, .box3, .box4{
+.teste{
 	display: none;
 }
 
+.Menu2:hover .teste{
+	display: block;
 }
+
 .menu_tag, .figura{
 	display: none;
 }
