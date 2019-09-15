@@ -155,7 +155,7 @@ body{
 	margin-bottom: 1rem;
 	object-fit: cover;
 	width: 1600px;
-	height: 250px;
+	height: 300px;
 	max-width: 100%;
 	object-position: 0 +20%;
 }
@@ -185,7 +185,7 @@ body{
 		margin-bottom: 1rem;
 		object-fit: cover;
 		width: 350px;
-		height: 80px;
+		height: 100px;
 		max-width: 100%;
 		object-position: 0 +20%;
 	}
@@ -246,8 +246,10 @@ body{
 		grid-column-end: 3;
 		grid-row-start: 3;
 		grid-row-end: 4;
-		margin-top: 2rem;
-		justify-content: center
+		margin-top: -1rem;
+		justify-content: center;
+		align-items:flex-start;
+
 	}
 
 	.texto_categ{
@@ -267,11 +269,11 @@ body{
 	}
 }
 
-@media (max-width: 1070px) {
+@media (max-width: 1070px)and(min-width:421px) {
 	.img1{
 		margin-bottom: 1rem;
 		object-fit: cover;
-		height: 150px;
+		height: 200px;
 		max-width: 100%;
 		object-position: 0 +20%;
 	}
