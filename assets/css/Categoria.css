@@ -60,14 +60,13 @@ body{
 .categoria{
 	margin: 0rem 2rem;
 	display: grid;
-	grid-template-rows: 2rem 25rem;
+	grid-template-rows: 2rem 30rem;
 	grid-template-columns:  1fr 1fr;
 	justify-items: center;
 	grid-gap: .5rem;
 }
 
 .imagem{
-	display:flex;
 	grid-column-start: 1;
 	grid-column-end: 1;
 	grid-row-start: 2;
@@ -76,14 +75,10 @@ body{
 	background: #292d40;
 	padding: 2rem;
 	justify-content:  center;
-	max-width:  80%;
+	max-width:  90%;
 	align-items:  center;
 }
 
-.categ_image{
-	max-width: 100%;
-	align-items: center;
-}
 
 .nome_categ{
 	grid-column-start: 2;
@@ -139,6 +134,17 @@ body{
 	font-size: 1.2rem;
 	font-family: 'Red Hat Display', sans-serif;
 	color: #edf0ff;
+}
+
+.categ_image_figure{
+	height: 100%;
+	display:flex;
+	object-fit: contain
+}
+
+.categ_image{
+	max-width: 100%;
+	align-items: center;
 }
 
 .img1{
@@ -214,12 +220,13 @@ body{
 		grid-row-end: 3;
 		max-width: 100%;
 		height: auto;
-		padding:1rem;
+		padding:1rem
+
 	}
 
 	.categ_image{
 		width: 100%;
-		border-radius:2rem;
+		border-radius:0rem;
 	}
 
 	.nome_categ{
