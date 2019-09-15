@@ -169,10 +169,12 @@
 .menu:hover .navi {
 	border-bottom-left-radius: 0rem;
 	border-bottom-right-radius: 0rem;
+
   }
 
   .menu:hover .sub_menu{
 	display: flex;
+  background-color: #525980;
 
   }
 

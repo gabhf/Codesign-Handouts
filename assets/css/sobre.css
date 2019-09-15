@@ -119,7 +119,6 @@
   font-size: 1.5rem;
   text-decoration: none;
 
- 
 }
 
 .menu:hover .navi {
@@ -129,6 +128,7 @@
 
   .menu:hover .sub_menu{
 	display: flex;
+  background-color: #525980;
 
   }
 

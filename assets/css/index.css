@@ -127,7 +127,7 @@ a{
 
   .menu:hover .sub_menu{
 	display: flex;
-
+	background-color: #525980;
   }
 
 @media (max-width: 420px) {
