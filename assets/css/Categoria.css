@@ -205,6 +205,8 @@ body{
 
   .menu:hover .sub_menu{
 	display: flex;
+	background-color: #525980;
+
 
   }
 
