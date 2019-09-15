@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(context)
     coDesReplace('.lista', context)
     coDesReplace('.nome_categ', context)
-     
+    coDesReplace('.texto_categ', context)     
     })
 })
