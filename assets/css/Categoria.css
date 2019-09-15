@@ -174,25 +174,24 @@ body{
 		width: 100%;
 	}
 
-	.menu_tag{
-		display:flex;
-		width: 50%;
-		height: 50%;
-		justify-content: center;
-		align-items: center;
-	}
+  .menu_tag{
+    display:flex;
+    width: 4.5rem;
+    justify-content: center;
+    align-items: center;
+  }
 
 	.header{
 		display:  flex;
 		width: 100%
 	}
 
-	.figura{
-		display: flex;
-		justify-content: center;
-		align-items:center;
-		max-width: 100%;
-	}
+  .figura{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+  }
 
 	.logo{
 		width: 190px

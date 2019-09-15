@@ -4,5 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
   db.download('/', function(data) {
     context = data
     coDesReplace('.nav', context)
+	coDesReplace('.figura_index', context)
   })
 })

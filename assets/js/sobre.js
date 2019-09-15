@@ -5,6 +5,5 @@ document.addEventListener('DOMContentLoaded', function() {
     context = data
     coDesReplace('.texto_sobre', context)
     coDesReplace('.sobre_image', context)
-
   })
 })

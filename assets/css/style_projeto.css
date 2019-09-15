@@ -33,9 +33,22 @@
   border-radius: 2rem;
 }
 
+.Project-img {
+  width: 50%;
+  justify-content:center;
+}
+
+.figuraa{
+  margin:0rem;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+  margin-inline-start: 0rem;
+  margin-inline-end: 0rem;
+}
+
 .Project-img img{
-  max-width: 100%;
-  height: auto;
+  max-height: 30rem;
+  max-width: 40rem;
 }
 
 .project-container{
@@ -185,9 +198,10 @@
   }
 
   .menu_tag{
-    display: flex;
-    width: 50%;
-    height: 50%
+    display:flex;
+    width: 4.5rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .logo{

@@ -26,32 +26,27 @@
 		<p><a class="Menu3" href="projeto.html">Projetos</a> </p>	
 	</div>
 	<div>
-		<div class = "Project-imgs"> 
-			<figure> 
-				<img src="assets/img/lorem1.jpg" alt="Como ir para a lua e voltar em um dia"/>
-				<figure> 
+		<div class="project-container">
+			<div class="project-class">
+				<div class = "project-title">
+					<h1>{{this.titulo}}</h1>
 				</div>
-				<div class="project-container">
-					<div class="project-class">
-						<div class = "project-title">
-							<h1>{{this.titulo}}</h1>
-						</div>
-						<div class="project-description"> 
-							<p>{{this.descricao}}</p>
-						</div>
-						<div>
-							<div class="project-er">  
-								<h2>Equipe responsável: </h2>
-							</div>
-							<div class="er-members">
-								<p>{{this.equiperesponsavel}}</p>
-							</div>
-						</div>
-					</div>	
-					<div class = "Project-img">  
-						<img src={{this.imagem}} alt="Como ir para a lua e voltar em um dia"/>
+				<div class="project-description"> 
+					<p>{{this.descricao}}</p>
+				</div>
+				<div>
+					<div class="project-er">  
+						<h2>Equipe responsável: </h2>
+					</div>
+					<div class="er-members">
+						<p>{{this.equiperesponsavel}}</p>
 					</div>
 				</div>
+			</div>	
+			<div class = "Project-img">
+				<img src={{this.imagem}} alt="Como ir para a lua e voltar em um dia"/>
 			</div>
-		</body>
-		</html>
+		</div>
+	</div>
+</body>
+</html>
