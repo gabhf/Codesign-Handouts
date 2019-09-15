@@ -4,5 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   db.download('/', function(data) {
     context = data
     coDesReplace('.texto_sobre', context)
+    coDesReplace('.sobre_image', context)
+
   })
 })
