@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(context)
     coDesReplace("title", context)
     coDesReplace('.project-title', context)
-    coDesReplace('.project-container', context)   
+    coDesReplace('.project-container', context)
+    coDesReplace("Project-img", context)   
     })
 })

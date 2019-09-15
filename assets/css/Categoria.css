@@ -17,7 +17,7 @@ body{
 .ind{
 	background: #292d40;
 	margin: 2rem;
-	border-radius: 1rem;
+	border-radius: 2rem;
 	padding: 1rem;
 
 }
@@ -75,14 +75,14 @@ body{
 	border-radius: 2rem;
 	background: #292d40;
 	padding: 2rem;
-  	justify-content:  center;
-  	max-width:  80%;
-  	align-items:  center;
+	justify-content:  center;
+	max-width:  80%;
+	align-items:  center;
 }
 
 .categ_image{
 	max-width: 100%;
-  	align-items: center;
+	align-items: center;
 }
 
 .nome_categ{
@@ -114,7 +114,7 @@ body{
 	padding: 2rem 0rem 2rem 2rem;
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 2rem;
-  	justify-content: flex-start;
+	justify-content: flex-start;
 }
 
 .lista{
@@ -122,7 +122,7 @@ body{
 	flex-wrap: wrap;
 	justify-content: center;
 	font-family: 'Red Hat Display', sans-serif;
- 	margin: 2rem;
+	margin: 2rem;
 }
 
 .link1{
@@ -136,7 +136,7 @@ body{
 .descricao1{
 	margin-top: 1rem; 
 	margin-bottom: 1rem;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-family: 'Red Hat Display', sans-serif;
 	color: #edf0ff;
 }
@@ -144,7 +144,6 @@ body{
 .img1{
 	width: 100%;
 	margin-bottom: 1rem;
-	border-radius: 1rem;
 }
 
 .menu_tag, .figura{
@@ -174,29 +173,32 @@ body{
 		width: 100%;
 	}
 
-  .menu_tag{
-    display:flex;
-    width: 4.5rem;
-    justify-content: center;
-    align-items: center;
-  }
+	.menu_tag{
+		display:flex;
+		width: 4.5rem;
+		justify-content: center;
+		align-items: center;
+	}
 
 	.header{
 		display:  flex;
 		width: 100%
 	}
 
-  .figura{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    width: 100%;
-  }
+	.figura{
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		width: 100%;
+	}
 
 	.logo{
 		width: 190px
 	}
 
+	.lista{
+		margin:0rem;
+	}
 	.categoria{
 		margin: 0rem 2rem;
 		display: grid;
@@ -243,6 +245,7 @@ body{
 	}
 
 	.projeto{
-		padding-top: 0rem;
+		padding-top: 2rem;
+		padding-bottom: 0rem
 	}
 }
