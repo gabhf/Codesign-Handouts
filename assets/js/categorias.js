@@ -15,6 +15,14 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(context)
     coDesReplace('.lista', context)
     coDesReplace('.nome_categ', context)
-     
+    coDesReplace('.texto_categ', context)     
+    coDesReplace('.ind', context) 
+    coDesReplace(".categ_image_figure", context)    
+    
     })
+
+    db.download('/', function(data) {
+        context = data
+        coDesReplace('.sub_menu', context)
+      })
 })

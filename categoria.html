@@ -18,6 +18,7 @@
       <img class="menu_tag" src="assets/img/menu_img.png">
     </figure>
   </header>    
+<<<<<<< HEAD
   <ul class="navi"> 
     <li>
       <a class="Menu1" href="index.html">Home</a>
@@ -32,20 +33,26 @@
     </li>
     <li><a class="Menu3" href="sobre.html">Sobre</a></li>
   </ul> 
+  <div class="menu">	
+      <div class="navi">
+        <p><a class = "Menu1" href="index.html">Home</a></p>
+        <p><a class = "Menu2" href="sobre.html">Sobre</a></p>
+        <div class = "Menu3">Projetos</div>
+      </div>	
+      <div class="sub_menu">
+        {{#each portfolio}}	
+          <p><a class="Sub_Menu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a></p>	
+        {{/each}}
+      </div>
+    </div>
   <div class="categoria">
     <div class="imagem">
-      <figure>
-        <img class="categ_image" src="https://picsum.photos/id/119/600/340" alt="sobre">
+      <figure class="categ_image_figure">
+        <img class="categ_image" src={{this.imagemcateg}} alt={{this.categoria}}>
       </figure>
     </div>
-
     <h1 class="nome_categ">{{this.categoria}}</h1>
-    <p class="texto_categ" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="texto_categ" >{{this.descricaocateg}}</p>
   </div>
   <main class="main">
     <div class="lista">  
@@ -59,7 +66,9 @@
         <li class = "ind">
           <a class="link1" href="projeto.html?pai=value&key={{@key}}">{{this.titulo}}</a>
           <p class="descricao1">{{this.descricao}}</p>
-          <img class="img1" src="https://picsum.photos/1400/200/?random" alt="projeto dos ambulantes">
+          <figure class="imagenscropadas">
+            <img class="img1" src={{this.imagem}} alt={{this.titulo}}>
+          </figure>
         </li>
         {{/each}}
       </ul>

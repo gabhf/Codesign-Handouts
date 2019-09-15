@@ -11,6 +11,12 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(context)
     coDesReplace("title", context)
     coDesReplace('.project-title', context)
-    coDesReplace('.project-container', context)   
+    coDesReplace('.project-container', context)
+    coDesReplace("Project-img", context)   
     })
+
+    db.download('/', function(data) {
+        context = data
+        coDesReplace('.sub_menu', context)
+      })
 })
