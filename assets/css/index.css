@@ -30,10 +30,14 @@ a{
 
 .Menu1, .Menu2, .Menu3  {
 	color: #edf0ff;
-	font-size: 1.5rem;
 	text-decoration: none;
-
 }
+
+.Menu3 {
+  position:relative;
+  display: block
+}
+
 .figura_index{
 	margin-top: 2rem;
 	display: flex;
@@ -107,7 +111,8 @@ a{
 }
 .sub_menu{
 	display:none;
-	flex-direction:row;
+	position: absolute;
+	flex-direction:column;
 	justify-content: space-around;
 	background: #292d40;
 	padding: 1rem;
@@ -119,17 +124,18 @@ a{
 .Sub_Menu1, .Sub_Menu2, .Sub_Menu3 {
   color: #edf0ff;
   font-size: 1.5rem;
+  padding: 0.1rem;
   text-decoration: none;
   font-family: 'Lora', serif;
 }
 
-.menu:hover .navi {
+.Menu3:hover .navi {
 	border-bottom-left-radius: 0rem;
 	border-bottom-right-radius: 0rem;
 	display: flex;
 }
 
-.menu:hover .sub_menu{
+.Menu3:hover .sub_menu{
 	display: flex;
 	background-color: #525980;
 }

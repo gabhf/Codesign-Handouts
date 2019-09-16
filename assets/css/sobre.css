@@ -19,15 +19,13 @@
   border-radius: 2rem;
 }
 
-.Menu1, .Menu2{
+.Menu1, .Menu2, .Menu3{
   color:#EDF0FF;
   text-decoration: none;
 }
 
 .Menu3 {
   position:relative;
-  color:#EDF0FF;
-  text-decoration: none;
   display: block
 }
 
