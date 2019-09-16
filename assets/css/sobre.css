@@ -30,7 +30,8 @@
 .figure{  
   justify-content: center;
   display: flex;
-  margin: 1rem;}
+  margin: 1rem;
+}
 
 .sobre_image{
   width: 50%;
@@ -53,8 +54,26 @@
   font-family: 'Red Hat Display', sans-serif;
   color:#EDF0FF;
   font-size: 1.2rem;
+  letter-spacing: .2rem;
+  line-height:1.5rem;
 }
 
+.categorias_menu{
+  color: #a3b3ff;
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.sub_menu{
+  display:none;
+  flex-direction:row;
+  justify-content: space-around;
+  background: #292d40;
+  padding: 1rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+
+}
 .posicao_texto_sobre{
   display: flex;
   justify-content: center;
@@ -102,35 +121,22 @@
   margin: 0rem;
 }
 
-.sub_menu{
-  display:none;
-  flex-direction:row;
-  justify-content: space-around;
-  background: #292d40;
-  padding: 1rem;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-  
- 
-}
-
 .Sub_Menu1, .Sub_Menu2, .Sub_Menu3 {
   color: #edf0ff;
   font-size: 1.5rem;
   text-decoration: none;
-
 }
 
 .menu:hover .navi {
-	border-bottom-left-radius: 0rem;
-	border-bottom-right-radius: 0rem;
-  }
+ border-bottom-left-radius: 0rem;
+ border-bottom-right-radius: 0rem;
+}
 
-  .menu:hover .sub_menu{
-	display: flex;
-  background-color: #525980;
+.menu:hover .sub_menu{
+ display: flex;
+ background-color: #525980;
 
-  }
+}
 
 @media (max-width: 420px) {
   .Menu1, .Menu2, .Menu3 {
@@ -159,6 +165,7 @@
     flex-flow: center;
     margin:0rem;
     margin-top: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .texto_sobre{
