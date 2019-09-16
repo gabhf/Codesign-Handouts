@@ -19,9 +19,15 @@
   border-radius: 2rem;
 }
 
-.Menu1, .Menu2, .Menu3 {
+.Menu1, .Menu2{
   color:#EDF0FF;
   text-decoration: none;
+}
+
+.Menu3 {
+  color:#EDF0FF;
+  text-decoration: none;
+  display: block
 }
 
 .logo {
@@ -121,11 +127,15 @@
   margin: 0rem;
 }
 
-.Sub_Menu1, .Sub_Menu2, .Sub_Menu3 {
+.Sub_Menu1 {
   color: #edf0ff;
   font-size: 1.5rem;
   text-decoration: none;
   font-family: 'Lora', serif;
+}
+
+a:hover, p:hover {
+  color: #a3b3ff;
 }
 
 .menu:hover .navi {
@@ -136,7 +146,6 @@
 .menu:hover .sub_menu{
  display: flex;
  background-color: #525980;
-
 }
 
 @media (max-width: 420px) {
