@@ -113,13 +113,14 @@ a{
 	padding: 1rem;
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 2rem;
-
+		
 }
 
 .Sub_Menu1, .Sub_Menu2, .Sub_Menu3 {
-	color: #edf0ff;
-	font-size: 1.5rem;
-	text-decoration: none;
+  color: #edf0ff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: 'Lora', serif;
 }
 
 .menu:hover .navi {
@@ -149,6 +150,9 @@ a{
 		justify-content: center;
 		align-items:center;
 		width: 100%;
+	}
+	.categorias_menu{
+		display: 	none
 	}
 	.imagem{
 		justify-content: center;

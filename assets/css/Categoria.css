@@ -188,6 +188,7 @@ body{
   font-size: 1.5rem;
   text-decoration: underline;
 }
+
 .sub_menu{
   display:none;
   flex-direction:row;
@@ -196,13 +197,13 @@ body{
   padding: 1rem;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
- 
-  
 }
+
 .Sub_Menu1, .Sub_Menu2, .Sub_Menu3 {
-color: #edf0ff;
-font-size: 1.5rem;
-text-decoration: none;
+  color: #edf0ff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: 'Lora', serif;
 }
 
 .menu:hover .navi {
@@ -224,7 +225,9 @@ background-color: #525980;
 	.Menu1, .Menu2, .Menu3 {
 		display: none;
 	}
-
+	.categorias_menu{
+		display: 	none
+	}
 	.img1{
 		margin-bottom: 1rem;
 		object-fit: cover;

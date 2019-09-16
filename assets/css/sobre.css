@@ -125,6 +125,7 @@
   color: #edf0ff;
   font-size: 1.5rem;
   text-decoration: none;
+  font-family: 'Lora', serif;
 }
 
 .menu:hover .navi {
@@ -150,7 +151,9 @@
     justify-content: center;
     align-items: center;
   }
-
+  .categorias_menu{
+    display:  none;
+  }
   .imagem, .sobre_image, .figure{
     justify-content: center;
     margin: 0rem;
