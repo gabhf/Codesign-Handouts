@@ -25,6 +25,7 @@
 }
 
 .Menu3 {
+  position:relative;
   color:#EDF0FF;
   text-decoration: none;
   display: block
@@ -71,6 +72,7 @@
   text-decoration: underline;
 }
 .sub_menu{
+  position: absolute;
   display:none;
   flex-direction:row;
   justify-content: space-around;
@@ -138,14 +140,15 @@ a:hover, p:hover {
   color: #a3b3ff;
 }
 
-.menu:hover .navi {
+.Menu3:hover .navi {
  border-bottom-left-radius: 0rem;
  border-bottom-right-radius: 0rem;
 }
 
-.menu:hover .sub_menu{
+.Menu3:hover .sub_menu{
  display: flex;
  background-color: #525980;
+ flex-direction: column;
 }
 
 @media (max-width: 420px) {
