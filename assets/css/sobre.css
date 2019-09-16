@@ -163,9 +163,13 @@ a:hover, p:hover {
     justify-content: center;
     align-items: center;
   }
-  .categorias_menu{
-    display:  none;
+
+
+  .figura:hover .menu_tag{
+    position: absolute;
+    display: flex;
   }
+
   .imagem, .sobre_image, .figure{
     justify-content: center;
     margin: 0rem;
@@ -195,8 +199,8 @@ a:hover, p:hover {
     object-fit: contain
   }
 
-  .menu_tag{
-    display:flex;
+  .teste{
+    display: flex;
     width: 4.5rem;
     justify-content: center;
     align-items: center;
@@ -212,6 +216,7 @@ a:hover, p:hover {
     justify-content: center;
     align-items:center;
     width: 100%;
+    position: relative;
   }
 
   .navi{
@@ -234,5 +239,9 @@ a:hover, p:hover {
     font-family: 'Lora', sans-serif;
     font-size: 2rem;
 
+  }
+
+  .menu_tag{
+    background-color: #525980;
   }
 }

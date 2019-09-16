@@ -15,7 +15,15 @@
 	<header class="header">
 		<a href="index.html"> <img class="logo" src="assets/img/logo_v2.png" alt="logotipo Judite maglhães salomão"></a>
 		<figure class="figura">
-			<img class="menu_tag" src="assets/img/menu_img.png">
+			<img class="teste" src="assets/img/menu_img.png">
+			<div class="menu_tag"> 
+				<div class="sub_menu2">
+				<p><a class="categorias_menu2">Categorias:</a></p> 
+				{{#each portfolio}} 
+				<p><a class="Sub_Menu3" href="categoria.html?key={{@key}}">{{this.categoria}}</a></p> 
+				{{/each}}
+				</div>
+			</div>
 		</figure>
 	</header>
 	<div class="menu">	
