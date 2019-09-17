@@ -176,13 +176,13 @@ a:hover, p:hover {
   }
 
   .Sub_Menu4 {
-  color: #edf0ff;
-  font-size: .9rem;
-  text-decoration: none;
-  font-family: 'Lora', serif;
-  width: 100%;
-  padding: 0.2rem;
-}
+    color: #edf0ff;
+    font-size: .9rem;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    width: 100%;
+    padding: 0.2rem;
+  }
 
   .categorias_menu4{
     padding:0.1rem;
