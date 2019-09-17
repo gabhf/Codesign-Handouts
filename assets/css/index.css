@@ -31,11 +31,12 @@ a{
 .Menu1, .Menu2, .Menu3  {
 	color: #edf0ff;
 	text-decoration: none;
+
 }
 
 .Menu3 {
   position:relative;
-  display: block
+  display: block:;
 }
 
 .figura_index{
@@ -121,45 +122,77 @@ a{
 		
 }
 
-.Sub_Menu1, .Sub_Menu2, .Sub_Menu3 {
-  color: #edf0ff;
-  font-size: 1.5rem;
-  padding: 0.1rem;
-  text-decoration: none;
-  font-family: 'Lora', serif;
+.Sub_Menu1{
+  	color: #edf0ff;
+ 	font-size: 1.5rem;
+	text-decoration: none;
+  	font-family: 'Lora', serif;
 }
 
 .Menu3:hover .navi {
 	border-bottom-left-radius: 0rem;
-	border-bottom-right-radius: 0rem;
-	display: flex;
+ 	border-bottom-right-radius: 0rem;
 }
 
 .Menu3:hover .sub_menu{
 	display: flex;
-	background-color: #525980;
+ 	background-color: #525980;
+ 	flex-direction: column;
 }
 
 @media (max-width: 420px) {
-	.menu_tag{
-		display:flex;
-		width: 4.5rem;
-		justify-content: center;
-		align-items: center;
-	}
+	.Menu1, .Menu2, .Menu3 {
+    	display: none;
+  	}
+
+  	.sub_menu2{
+    	color:#EDF0FF;
+  	}
+
 	.header{
 		display:  flex;
 		width: 100%
 	}
-	.figura{
-		display: flex;
-		justify-content: center;
-		align-items:center;
-		width: 100%;
-	}
-	.categorias_menu{
-		display: 	none
-	}
+	.figura:hover .menu_tag{
+    	position: absolute;
+    	display: flex;
+  	}
+
+  	.sub_menu4{
+    	display: none;
+       	justify-content: center;
+       	align-items: center
+  	}
+
+  	.Sub_Menu4 {
+    	color: #edf0ff;
+    	font-size: 1.5rem;
+    	text-decoration: none;
+    	font-family: 'Lora', serif;
+    	width: 100%;
+    	padding: 0.2rem;
+    	justify-content: center;
+    	align-items: center;s
+    	letter-spacing: .2rem
+  	}
+
+  	.categorias_menu4{
+    	padding:0.1rem;
+ 	}
+
+  	.Menuu3:hover .sub_menu4{
+    	display: flex;
+  	}
+
+  	.figura{
+    	display: flex;
+    	justify-content: center;
+    	align-items:center;
+    	width: 100%;
+    	position: relative;
+  	}
+
+	
 	.imagem{
 		justify-content: center;
 		align-items:center;
@@ -191,5 +224,40 @@ a{
 	.lista{
 		margin-top: 2rem;
 	}
+
+	.menu_tag{
+    	background-color: #525980;
+    	width: 15rem;
+    	height: 20rem;
+    	right: 0px;
+    	top: 0px; 
+    	padding: 0.2rem;
+    	justify-content: center;
+
+  	}
+	 .sub_menu2{
+		margin: 1rem;
+		padding: 0.3rem;
+		line-height: 200%;
+		width: 100%;
+		justify-content:center
+	}
+
+	.Menuu1, .Menuu2, .Menuu3 {
+		text-decoration: none;
+		color:#EDF0FF;
+		font-size: 2rem
+	}
+
+	.sub_menu4{
+	   	flex-direction: column;
+	}
+
+  	.teste{
+    display: flex;
+    width: 4.5rem;
+    justify-content: center;
+    align-items: center;
+  }
 
 }

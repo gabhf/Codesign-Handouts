@@ -145,6 +145,12 @@
   text-decoration: none;
 }
 
+.menu3 {
+  position:relative;
+  display: block
+}
+
+
 .menu_tag, .figura{
   display: none;
 }
@@ -165,20 +171,20 @@
 
 }
 
-.Sub_Menu1, .Sub_Menu2, .Sub_Menu3 {
+.Sub_Menu1{
   color: #edf0ff;
   font-size: 1.5rem;
   text-decoration: none;
   font-family: 'Lora', serif;
 }
 
-.menu:hover .navi {
+.menu3:hover .navi {
 	border-bottom-left-radius: 0rem;
 	border-bottom-right-radius: 0rem;
 
 }
 
-.menu:hover .sub_menu{
+.menu3:hover .sub_menu{
 	display: flex;
   background-color: #525980;
 
@@ -195,7 +201,7 @@
   .categorias_menu{
     display: none
   }
-  .Menu1, .Menu2, .Menu3 {
+  .menu1, .menu2, .menu3 {
     display: none;
   }
 
@@ -232,18 +238,68 @@
     width: 100%;
   }
 
-  .menu_tag{
-    display:flex;
-    width: 4.5rem;
-    justify-content: center;
-    align-items: center;
-  }
-
   .logo{
     width: 190px;
   }
 
   .project-class{
     margin-right: 0rem;
+  }
+
+  .figura:hover .menu_tag{
+      position: absolute;
+      display: flex;
+    }
+
+  .sub_menu4{
+    display: none;
+  }
+
+  .Sub_Menu4 {
+    color: #edf0ff;
+    font-size: .9rem;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    width: 100%;
+    padding: 0.2rem;
+  }
+
+  .categorias_menu4{
+    padding:0.1rem;
+  }
+
+  .Menuu3:hover .sub_menu4{
+    display: flex;
+  }
+
+  .menu_tag{
+    background-color: #525980;
+    width: 8rem;
+    height: 50rem;
+    right: 0px;
+    top: 0px; 
+    padding: 0.2rem;
+  }
+
+  .sub_menu2{
+    margin: 1rem;
+    padding: 0.3rem;
+    line-height: 200%
+  }
+
+  .Menuu1, .Menuu2, .Menuu3{
+    text-decoration: none;
+    color:#EDF0FF;
+  }
+
+  .sub_menu4{
+    flex-direction: column;
+  }
+
+  .teste{
+    display: flex;
+    width: 4.5rem;
+    justify-content: center;
+    align-items: center;
   }
 }
