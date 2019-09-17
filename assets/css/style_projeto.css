@@ -5,6 +5,10 @@
   align-items: stretch;
 }
 
+.menu_tag, .figura{
+  display: none;
+}
+
 .body{
   margin:0;
   padding:0;
@@ -91,9 +95,12 @@
 .project-er{
   display: flex;
   align-items: flex-end; 
-  margin-top: 15rem;
+  margin-top: 4rem;
   font-family: 'Lora', serif;
   color: #edf0ff;
+  font-size: 1.35rem;
+  letter-spacing: .2rem;
+  line-height:1.5rem;
 }
 
 .er-members{
@@ -103,6 +110,9 @@
   margin-top: 1rem;
   font-family: 'Red Hat Display', sans-serif;
   color: #edf0ff;
+  font-size: 1rem; 
+  letter-spacing: .2rem;
+  line-height:1.5rem;
 }
 
 .Project-img{
@@ -150,11 +160,6 @@
   display: block
 }
 
-
-.menu_tag, .figura{
-  display: none;
-}
-
 .menu{
   align-items: flex-end;
   margin: 0rem;
@@ -168,7 +173,6 @@
   padding: 1rem;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
-
 }
 
 .Sub_Menu1{
@@ -178,18 +182,20 @@
   font-family: 'Lora', serif;
 }
 
-.menu3:hover .navi {
-	border-bottom-left-radius: 0rem;
-	border-bottom-right-radius: 0rem;
-
+.Menu3:hover .navi {
+ border-bottom-left-radius: 0rem;
+ border-bottom-right-radius: 0rem;
 }
 
-.menu3:hover .sub_menu{
-	display: flex;
-  background-color: #525980;
-
+.Menu3:hover .sub_menu{
+ display: flex;
+ background-color: #525980;
+ flex-direction: column;
 }
 
+a:hover {
+  color: #a3b3ff;
+}
 @media (max-width: 420px) {
   .project-container{
     flex-direction: column;
@@ -200,6 +206,17 @@
   }
   .categorias_menu{
     display: none
+  }
+  .Menu1, .Menu2, .Menu3 {
+    display: none;
+  }
+
+  .sub_menu2{
+    color:#EDF0FF;
+  }
+
+  .menu_tag{
+    display: flex;
   }
   .menu1, .menu2, .menu3 {
     display: none;
@@ -224,7 +241,6 @@
   .Project-imgs{
     margin: 2rem;
     padding: 1rem
-    
   }
 
   .header{
@@ -236,6 +252,7 @@
     justify-content: center;
     align-items:center;
     width: 100%;
+    position: relative;
   }
 
   .logo{
@@ -247,9 +264,10 @@
   }
 
   .figura:hover .menu_tag{
-      position: absolute;
-      display: flex;
-    }
+    position: fixed;
+    /*display: flex;*/
+    left: 0;
+  }
 
   .sub_menu4{
     display: none;
@@ -257,7 +275,7 @@
 
   .Sub_Menu4 {
     color: #edf0ff;
-    font-size: .9rem;
+    font-size: 1.2rem;
     text-decoration: none;
     font-family: 'Lora', serif;
     width: 100%;
@@ -270,21 +288,31 @@
 
   .Menuu3:hover .sub_menu4{
     display: flex;
+    background-color: #292d40;
+    border-radius:2rem;
+    padding-left: 1rem
   }
 
   .menu_tag{
     background-color: #525980;
-    width: 8rem;
-    height: 50rem;
+    width: 15rem;
+    max-height: 800rem;
     right: 0px;
     top: 0px; 
     padding: 0.2rem;
+    position: fixed;
+    left: 500px;
+    transition: left .5s;
+    border-radius: 3rem
   }
 
   .sub_menu2{
     margin: 1rem;
     padding: 0.3rem;
-    line-height: 200%
+    line-height: 200%;
+    display:flex;
+    flex-direction: column;
+    font-size: 2rem
   }
 
   .Menuu1, .Menuu2, .Menuu3{
@@ -301,5 +329,15 @@
     width: 4.5rem;
     justify-content: center;
     align-items: center;
+  }
+  .Menuu3:hover .sub_menu4{
+    display: flex;
+  }
+
+  .Menuu3:hover .sub_menu4{
+    display: flex;
+    background-color: #292d40;
+    border-radius:2rem;
+    padding-left: 1rem
   }
 }

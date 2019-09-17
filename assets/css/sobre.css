@@ -5,48 +5,24 @@
   background: #edf0ff;
 }
 
-.navi {
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-  width:  100%;
-  margin:0 auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-family: 'Lora', sans-serif;
-  background: #292d40;
-  font-size: 1.5rem;
-  border-radius: 2rem;
-}
-
-.Menu1, .Menu2, .Menu3{
-  color:#EDF0FF;
-  text-decoration: none;
-}
-
-.Menu3 {
-  position:relative;
-  display: block
-}
-
-
 .figure{  
   justify-content: center;
   display: flex;
-  margin: 1rem;
+  margin: 0rem;
 }
 
 .sobre_image{
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
-.imagem { 
-  max-width: 95%;
+.imagemjudite { 
+  max-width: 50%;
   height: auto;
   padding:1rem;
   background:#292d40;
   border-radius: 2rem;
+  margin-top: 1rem
 }
 
 .texto_sobre{
@@ -61,23 +37,6 @@
   line-height:1.5rem;
 }
 
-.categorias_menu{
-  color: #a3b3ff;
-  font-family: 'Lora', serif;
-  font-size: 1.5rem;
-  text-decoration: underline;
-}
-.sub_menu{
-  position: absolute;
-  display:none;
-  flex-direction:row;
-  justify-content: space-around;
-  background: #292d40;
-  padding: 1rem;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-
-}
 .posicao_texto_sobre{
   display: flex;
   justify-content: center;
@@ -89,7 +48,7 @@
 }
 
 .texto_com_imagem{
-  width: 47%;
+  width: 100%;
   justify-content: center;
   font-family: 'Lora', sans-serif;
   margin: 1rem;
@@ -98,6 +57,7 @@
   background:#292d40;
   border-radius: 2rem;
   margin-left: 2rem;
+  margin-bottom: 0rem;
 }
 
 .divisao_horizontal{
@@ -108,53 +68,10 @@
   justify-content: center;
 }
 
-.menu_tag, .figura{
-  display: none;
-}
-
-.header{
-  display:flex;
-}
-
 .posicao_titulo_sobre_mobile{
   display: none
 }
-
-.menu{
-  align-items: flex-end;
-  margin: 0rem;
-}
-
-.Sub_Menu1 {
-  color: #edf0ff;
-  font-size: 1.5rem;
-  text-decoration: none;
-  font-family: 'Lora', serif;
-}
-
-a:hover, p:hover {
-  color: #a3b3ff;
-}
-
-.Menu3:hover .navi {
- border-bottom-left-radius: 0rem;
- border-bottom-right-radius: 0rem;
-}
-
-.Menu3:hover .sub_menu{
- display: flex;
- background-color: #525980;
- flex-direction: column;
-}
-
 @media (max-width: 420px) {
-  .Menu1, .Menu2, .Menu3 {
-    display: none;
-  }
-
-  .sub_menu2{
-    color:#EDF0FF;
-  }
   .divisao_horizontal{
     flex-flow: column;
     margin:0rem;
@@ -162,41 +79,14 @@ a:hover, p:hover {
     justify-content: center;
     align-items: center;
   }
-
-
-  .figura:hover .menu_tag{
-    position: absolute;
-    display: flex;
-  }
-
-  .sub_menu4{
-    display: none;
-  }
-
-  .Sub_Menu4 {
-    color: #edf0ff;
-    font-size: .9rem;
-    text-decoration: none;
-    font-family: 'Lora', serif;
-    width: 100%;
-    padding: 0.2rem;
-  }
-
-  .categorias_menu4{
-    padding:0.1rem;
-  }
-
-  .Menuu3:hover .sub_menu4{
-    display: flex;
-  }
-
-  .imagem, .sobre_image, .figure{
+   .figure{
     justify-content: center;
     margin: 0rem;
-    max-width: 100%;
   }
-  .imagem{
+
+  .imagemjudite{
     justify-content: center;
+    max-width: 83%
   }
   .texto_com_imagem{
     width:  70%;
@@ -211,36 +101,18 @@ a:hover, p:hover {
     padding:  0rem;
   }
   .sobre_image{
-    width:  70%;
-    margin:0rem;
+    margin:2rem;
+    margin-top: .5rem;
     padding: 0rem;
     justify-content: center;
     align-items: center;
-    object-fit: contain
-  }
-
-  .teste{
-    display: flex;
-    width: 4.5rem;
-    justify-content: center;
-    align-items: center;
+    object-fit: contain;
+    max-width: 100%;
   }
 
   .header{
     display:  flex;
     width: 100%
-  }
-
-  .figura{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    width: 100%;
-    position: relative;
-  }
-
-  .navi{
-    display:  none;
   }
 
   .posicao_texto_sobre{
@@ -255,33 +127,10 @@ a:hover, p:hover {
     display: flex;
     justify-content: center;
     margin: 1rem;
+    margin-bottom: 0rem;
     margin-top: 0rem;
     font-family: 'Lora', sans-serif;
     font-size: 2rem;
-
   }
 
-  .menu_tag{
-    background-color: #525980;
-    width: 8rem;
-    height: 50rem;
-    right: 0px;
-    top: 0px; 
-    padding: 0.2rem;
-  }
-
-  .sub_menu2{
-    margin: 1rem;
-    padding: 0.3rem;
-    line-height: 200%
-  }
-
-  .Menuu1, .Menuu2{
-    text-decoration: none;
-    color:#EDF0FF;
-  }
-
-  .sub_menu4{
-    flex-direction: column;
-  }
 }
