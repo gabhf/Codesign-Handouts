@@ -183,7 +183,12 @@ a:hover, p:hover {
   text-decoration: none;
   font-family: 'Lora', serif;
   width: 100%;
+  padding: 0.2rem;
 }
+
+  .categorias_menu4{
+    padding:0.1rem;
+  }
 
   .Menuu3:hover .sub_menu4{
     display: flex;
@@ -262,14 +267,17 @@ a:hover, p:hover {
 
   .menu_tag{
     background-color: #525980;
-    width: 6rem;
-    height: 9rem;
-    right: 45px; 
-    top: 110px; 
+    width: 8rem;
+    height: 50rem;
+    right: 0px;
+    top: 0px; 
+    padding: 0.2rem;
   }
 
   .sub_menu2{
     margin: 1rem;
+    padding: 0.3rem;
+    line-height: 200%
   }
 
   .Menuu1, .Menuu2{
