@@ -154,6 +154,9 @@ a:hover, p:hover {
     display: none;
   }
 
+  .sub_menu2{
+    color:#EDF0FF;
+  }
   .divisao_horizontal{
     flex-flow: column;
     margin:0rem;
@@ -165,6 +168,22 @@ a:hover, p:hover {
 
   .figura:hover .menu_tag{
     position: absolute;
+    display: flex;
+  }
+
+  .sub_menu4{
+    display: none;
+  }
+
+  .Sub_Menu4 {
+  color: #edf0ff;
+  font-size: .9rem;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  width: 100%;
+}
+
+  .Menuu3:hover .sub_menu4{
     display: flex;
   }
 
@@ -241,5 +260,22 @@ a:hover, p:hover {
 
   .menu_tag{
     background-color: #525980;
+    width: 6rem;
+    height: 9rem;
+    right: 45px; 
+    top: 110px; 
+  }
+
+  .sub_menu2{
+    margin: 1rem;
+  }
+
+  .Menuu1, .Menuu2{
+    text-decoration: none;
+    color:#EDF0FF;
+  }
+
+  .sub_menu4{
+    flex-direction: column;
   }
 }
