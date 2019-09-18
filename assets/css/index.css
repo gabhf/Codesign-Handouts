@@ -146,11 +146,6 @@ a:hover {
 	border-radius: 2rem;
 	max-width: 80%;
 }
-/*
-.menu_tag, .figura{
-	display: none;
-}
-*/
 
 .menu{
 	align-items: flex-end;
@@ -191,7 +186,7 @@ a:hover {
 	flex-direction: column;
 }
 @media (max-width: 420px) {
-	.categorias_menu{
+  .categorias_menu{
     display: none
   }
   .Menu1, .Menu2, .Menu3 {
@@ -240,7 +235,6 @@ a:hover {
 
   .figura:hover .menu_tag{
     position: fixed;
-    /*display: flex;*/
     right: -50px;
   }	
 	.imagem{

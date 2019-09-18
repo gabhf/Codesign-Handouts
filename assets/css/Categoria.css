@@ -128,17 +128,6 @@ body{
 	object-position: 0 +20%;
 }
 
-.menu{
-	align-items: flex-end;
-	margin: 0rem;
-	margin-bottom: 1.5rem;
-}
-.categorias_menu{
-	color: #a3b3ff;
-	font-family: 'Lora', serif;
-	font-size: 1.5rem;
-	text-decoration: underline;
-}
 
 @media (max-width: 420px) {
 	.img1{
@@ -222,5 +211,11 @@ body{
 		padding-top: 2rem;
 		padding-bottom: 0rem
 	}
+
+	.figure{
+    	justify-content: center;
+    	margin: 0rem;
+  	}
+
 }
 

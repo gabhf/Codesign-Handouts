@@ -26,5 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
     db.download('/', function(data) {
         context = data
         coDesReplace('.sub_menu', context)
+        coDesReplace('.sub_menu4', context)
       })
 })
