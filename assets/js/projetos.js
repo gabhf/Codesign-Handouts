@@ -13,11 +13,12 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.project-title', context)
     coDesReplace('.project-container', context)
     coDesReplace("Project-img", context)   
-    coDesReplace('.sub_menu', context)    
     })
 
     db.download('/', function(data) {
         context = data
         coDesReplace('.sub_menu4', context)
+        coDesReplace('.sub_menu', context)    
+
       })
 })

@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap" rel="stylesheet">
 	<script src="assets/js/codes.js"></script>
-  	<link href="assets/css/index.css" rel="stylesheet">
+  <link href="assets/css/index.css" rel="stylesheet">
 	<script src="assets/js/categorias.js"></script>
 </head>
 <body>
@@ -38,7 +38,6 @@
 				<p><a class = "Menu2" href="sobre.html">Sobre</a></p>
 				<div class = "Menu3">Projetos
 					<div class="sub_menu">
-						<p><a class="categorias_menu">Categorias:</a></p> 
 						{{#each portfolio}} 
 						<p><a class="Sub_Menu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a></p> 
 						{{/each}}

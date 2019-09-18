@@ -5,10 +5,6 @@
   align-items: stretch;
 }
 
-.menu_tag, .figura{
-  display: none;
-}
-
 .body{
   margin:0;
   padding:0;
@@ -85,13 +81,6 @@
   line-height:1.5rem;
 }
 
-.categorias_menu{
-  color: #a3b3ff;
-  font-family: 'Lora', serif;
-  font-size: 1.5rem;
-  text-decoration: underline;
-}
-
 .project-er{
   display: flex;
   align-items: flex-end; 
@@ -132,48 +121,6 @@
   width: 90%;
 }
 
-.navi {
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-  width:  100%;
-  margin:0 auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-family: 'Lora', sans-serif;
-  background: #292d40;
-  font-size: 1.5rem;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-}
-
-.menu1, .menu2, .menu3  {
-  color: #edf0ff;
-  font-size: 1.5rem;
-  text-decoration: none;
-}
-
-.menu3 {
-  position:relative;
-  display: block
-}
-
-.menu{
-  align-items: flex-end;
-  margin: 0rem;
-}
-
-.sub_menu{
-  display:none;
-  flex-direction:row;
-  justify-content: space-around;
-  background: #292d40;
-  padding: 1rem;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-}
 
 .Sub_Menu1{
   color: #edf0ff;
@@ -193,9 +140,11 @@
  flex-direction: column;
 }
 
-a:hover {
-  color: #a3b3ff;
+.Menu1, .Menu2, .Menu3  {
+  color: #edf0ff;
+  text-decoration: none;
 }
+
 @media (max-width: 420px) {
   .project-container{
     flex-direction: column;
@@ -266,7 +215,7 @@ a:hover {
   .figura:hover .menu_tag{
     position: fixed;
     /*display: flex;*/
-    left: 0;
+    right: -50px;
   }
 
   .sub_menu4{
@@ -280,10 +229,12 @@ a:hover {
     font-family: 'Lora', serif;
     width: 100%;
     padding: 0.2rem;
+    margin-right: 1rem
   }
 
   .categorias_menu4{
     padding:0.1rem;
+
   }
 
   .Menuu3:hover .sub_menu4{
@@ -301,8 +252,8 @@ a:hover {
     top: 0px; 
     padding: 0.2rem;
     position: fixed;
-    left: 500px;
-    transition: left .5s;
+    right: -500px;
+    transition: right .5s;
     border-radius: 3rem
   }
 

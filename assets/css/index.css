@@ -16,25 +16,25 @@ a:hover {
 	display: block
 }
 
-
 .menu_tag, .figura{
-  display: none;
+	display: none;
 }
 .navi {
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-  width:  100%;
-  margin:0 auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-family: 'Lora', sans-serif;
-  background: #292d40;
-  font-size: 1.5rem;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width:  100%;
+	margin:0 auto;
+	margin-bottom: 1.2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-family: 'Lora', sans-serif;
+	background: #292d40;
+	font-size: 1.5rem;
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
 }
 
 .Menu1, .Menu2, .Menu3  {
@@ -43,28 +43,28 @@ a:hover {
 
 }
 .menu1, .menu2, .menu3  {
-  color: #edf0ff;
-  font-size: 1.5rem;
-  text-decoration: none;
+	color: #edf0ff;
+	font-size: 1.5rem;
+	text-decoration: none;
 }
 .menu3 {
-  position:relative;
-  display: block
+	position:relative;
+	display: block
 }
 
 .sub_menu{
-  display:none;
-  flex-direction:row;
-  justify-content: space-around;
-  background: #292d40;
-  padding: 1rem;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
+	display:none;
+	flex-direction:row;
+	justify-content: space-around;
+	background: #292d40;
+	padding: 1rem;
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
 }
 
 .menu{
-  align-items: flex-end;
-  margin: 0rem;
+	align-items: flex-end;
+	margin: 0rem;
 }
 .Menu3 {
 	position:relative;
@@ -72,24 +72,24 @@ a:hover {
 }
 
 .Menu3:hover .navi {
- border-bottom-left-radius: 0rem;
- border-bottom-right-radius: 0rem;
+	border-bottom-left-radius: 0rem;
+	border-bottom-right-radius: 0rem;
 }
 
 .Menu3:hover .sub_menu{
- display: flex;
- background-color: #525980;
- flex-direction: column;
+	display: flex;
+	background-color: #525980;
+	flex-direction: column;
 }
 
 a:hover {
-  color: #a3b3ff;
+	color: #a3b3ff;
 }
 .Sub_Menu1{
-  color: #edf0ff;
-  font-size: 1.5rem;
-  text-decoration: none;
-  font-family: 'Lora', serif;
+	color: #edf0ff;
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-family: 'Lora', serif;
 }
 .figura_index{
 	margin-top: 2rem;
@@ -100,9 +100,9 @@ a:hover {
 .projetos_index{
 	font-family: 'Lora', sans-serif;
 	font-size: 2rem;
-	margin-top: 2rem;
+	margin-top: 1.8rem;
 	margin-left: 8.5%;
-
+	justify-content: center
 }
 
 .lista{
@@ -167,6 +167,7 @@ a:hover {
 	padding: 1rem;
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 2rem;
+
 }
 
 .Sub_Menu1{
@@ -184,29 +185,40 @@ a:hover {
 	display: flex;
 	background-color: #525980;
 	flex-direction: column;
+	line-height: 160%;
+
 }
 @media (max-width: 420px) {
-  .categorias_menu{
-    display: none
-  }
-  .Menu1, .Menu2, .Menu3 {
-    display: none;
-  }
+	.categorias_menu{
+		display: none
+	}
+	.Menu1, .Menu2, .Menu3 {
+		display: none;
+	}
 
-  .sub_menu2{
-    color:#EDF0FF;
-  }
+	.nav{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		width:80%;
+		margin:1rem;
+		padding: 1rem;
+	}
 
-  .menu_tag{
-    display: flex;
-  }
-  .menu1, .menu2, .menu3 {
-    display: none;
-  }
+	.sub_menu2{
+		color:#EDF0FF;
+	}
 
-  .navi{
-    display: none;
-  }
+	.menu_tag{
+		display: flex;
+	}
+	.menu1, .menu2, .menu3 {
+		display: none;
+	}
+
+	.navi{
+		display: none;
+	}
 
 	.sub_menu2{
 		color:#EDF0FF;
@@ -217,35 +229,33 @@ a:hover {
 		width: 100%
 	}
 
-  .sub_menu4{
-    display: none;
-  }
+	.sub_menu4{
+		display: none;
+	}
 
 	.categorias_menu4{
 		padding:0.1rem;
 	}
 
-  .figura{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    width: 100%;
-    position: relative;
-  }
+	.figura{
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		width: 100%;
+		position: relative;
+	}
 
-  .figura:hover .menu_tag{
-    position: fixed;
-    right: -50px;
-  }	
+	.figura:hover .menu_tag{
+		position: fixed;
+		right: -50px;
+	}	
 	.imagem{
 		justify-content: center;
 		align-items:center;
 		margin-top: 0rem;
 		padding:2rem;
 	}
-	.navi{
-		display:  none;
-	}
+
 	.logo{
 		width: 190px
 	}
@@ -257,71 +267,64 @@ a:hover {
 		align-items: center;
 		margin:1.2rem;
 	}
-	.nav{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		width:80%;
-		margin:1rem;
-		padding: 1rem;
-	}
+
 	.lista{
 		margin-top: 2rem;
 	}
 
-  .menu_tag{
-    background-color: #525980;
-    width: 15rem;
-    max-height: 800rem;
-    top: 0px; 
-    padding: 0.2rem;
-    position: fixed;
-    right: -500px;
-    transition: right .5s;
-    border-radius: 3rem
-  }
-  .sub_menu2{
-    margin: 1rem;
-    padding: 0.3rem;
-    line-height: 200%;
-    display:flex;
-    flex-direction: column;
-    font-size: 2rem
-  }
+	.menu_tag{
+		background-color: #525980;
+		width: 15rem;
+		max-height: 800rem;
+		top: 0px; 
+		padding: 0.2rem;
+		position: fixed;
+		right: -500px;
+		transition: right .5s;
+		border-radius: 3rem
+	}
+	.sub_menu2{
+		margin: 1rem;
+		padding: 0.3rem;
+		line-height: 200%;
+		display:flex;
+		flex-direction: column;
+		font-size: 2rem
+	}
 
-  .Menuu1, .Menuu2, .Menuu3{
-    text-decoration: none;
-    color:#EDF0FF;
-  }
+	.Menuu1, .Menuu2, .Menuu3{
+		text-decoration: none;
+		color:#EDF0FF;
+	}
 
-  .sub_menu4{
-    display: none;
-    flex-direction: column;
+	.sub_menu4{
+		display: none;
+		flex-direction: column;
 
-  }
+	}
 
-  .Sub_Menu4 {
-    color: #edf0ff;
-    font-size: 1.2rem;
-    text-decoration: none;
-    font-family: 'Lora', serif;
-    width: 100%;
-    padding: 0.2rem;
-    margin-right: 1rem
-  }
+	.Sub_Menu4 {
+		color: #edf0ff;
+		font-size: 1.2rem;
+		text-decoration: none;
+		font-family: 'Lora', serif;
+		width: 100%;
+		padding: 0.2rem;
+		margin-right: 1rem
+	}
 
-  .teste{
-    display: flex;
-    width: 4.5rem;
-    justify-content: center;
-    align-items: center;
-  }
+	.teste{
+		display: flex;
+		width: 4.5rem;
+		justify-content: center;
+		align-items: center;
+	}
 
-  .Menuu3:hover .sub_menu4{
-    display: flex;
-    background-color: #292d40;
-    border-radius:2rem;
-    padding-left: 1rem
-  }
+	.Menuu3:hover .sub_menu4{
+		display: flex;
+		background-color: #292d40;
+		border-radius:2rem;
+		padding-left: 1rem
+	}
 
 }

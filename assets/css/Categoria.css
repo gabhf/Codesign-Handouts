@@ -157,7 +157,7 @@ body{
 		grid-template-columns: 1fr;
 		justify-content: center;
 		align-items:  center;
-		grid-gap: .5rem;
+		grid-gap: 0rem;
 	}
 	.imagem{
 		display: flex;
@@ -188,7 +188,7 @@ body{
 		grid-column-end: 3;
 		grid-row-start: 3;
 		grid-row-end: 4;
-		margin-top: -1rem;
+		margin-top: 0.2rem;
 		justify-content: center;
 		align-items:flex-start;
 
@@ -208,7 +208,7 @@ body{
 	}
 
 	.projeto{
-		padding-top: 2rem;
+		padding-top: .3rem;
 		padding-bottom: 0rem
 	}
 

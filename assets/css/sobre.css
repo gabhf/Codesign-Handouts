@@ -5,19 +5,20 @@
   background: #edf0ff;
 }
 
-.figure{  
+.figurejudite{  
   justify-content: center;
   display: flex;
   margin: 0rem;
+  width: 100%
 }
 
 .sobre_image{
-  max-width: 50%;
+  width: 100%;
   height: auto;
 }
 
 .imagemjudite { 
-  max-width: 50%;
+  max-width: 80%;
   height: auto;
   padding:1rem;
   background:#292d40;
@@ -48,11 +49,11 @@
 }
 
 .texto_com_imagem{
-  width: 100%;
+  width: 85%;
   justify-content: center;
   font-family: 'Lora', sans-serif;
   margin: 1rem;
-  margin-right: 0.5rem;
+  margin-right: 2rem;
   padding:1rem;
   background:#292d40;
   border-radius: 2rem;
@@ -86,10 +87,10 @@
 
   .imagemjudite{
     justify-content: center;
-    max-width: 83%
+    max-width: 80%
   }
   .texto_com_imagem{
-    width:  70%;
+    max-width:  80%;
     justify-content: center;
     flex-flow: center;
     margin:0rem;
